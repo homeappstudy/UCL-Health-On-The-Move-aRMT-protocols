@@ -59,15 +59,6 @@
             "amount": 0,
             "repeat": 0
           },
-          "clinicalProtocol": {
-            "requiresInClinicCompletion": true,
-            "repeatAfterClinicVisit": {
-              "unit": "min",
-              "unitsFromZero": [
-                4
-              ]
-            }
-          },
           "completionWindow": {
             "unit": "day",
             "amount": 3
