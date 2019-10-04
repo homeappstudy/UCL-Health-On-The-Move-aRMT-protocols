@@ -13,7 +13,7 @@
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "sample-field-types",
-          "avsc": "questionnaire",
+          "avsc": "task",
           "icon": {
             "name": "checkmark-circle"
           }
