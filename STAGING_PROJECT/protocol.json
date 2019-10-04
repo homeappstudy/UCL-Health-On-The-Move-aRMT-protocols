@@ -7,7 +7,7 @@
     ],
     "protocols": [
       {
-        "name": "SAMPLE_INPUT_DEMO",
+        "name": "DEMO",
         "showIntroduction": false,
         "showInCalendar": false,
         "questionnaire": {
@@ -64,6 +64,10 @@
                 4
               ]
             }
+          },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 3
           }
         }
       },
