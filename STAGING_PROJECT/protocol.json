@@ -7,7 +7,7 @@
     ],
     "protocols": [
       {
-        "name": "DEMO",
+        "name": "TEST SAMP",
         "showIntroduction": false,
         "showInCalendar": false,
         "questionnaire": {
