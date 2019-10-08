@@ -1,5 +1,5 @@
 {
-    "version": "0.3.12",
+    "version": "0.3.13",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -51,13 +51,13 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              1000
+              1095
             ]
           },
           "reminders": {
             "unit": "day",
-            "amount": 0,
-            "repeat": 0
+            "amount": 1,
+            "repeat": 2
           },
           "completionWindow": {
             "unit": "day",
