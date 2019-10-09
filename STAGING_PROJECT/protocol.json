@@ -1,5 +1,5 @@
 {
-    "version": "0.3.15",
+    "version": "0.3.16",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -119,8 +119,22 @@
                 "amount": 15
               },
               "notification": {
-                "title": "Missed your RSES survey?",
-                "text": "You have missed your RSES task. Don't worry you can still complete it"
+                "title": {
+                  "en": "Missed your RSES survey?",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                },
+                "text": {
+                  "en": "You have missed your RSES task. Don't worry you can still complete it",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                }
               }
             },
             {
@@ -129,8 +143,22 @@
                 "amount": 30
               },
               "notification": {
-                "title": "You still have some time",
-                "text": "You still have time. Don't worry you can still complete it"
+                "title": {
+                  "en": "You still have some time",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                },
+                "text": {
+                  "en": "Did you miss your survey. Don't worry you can still complete it",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                }
               }
             }
           ],
