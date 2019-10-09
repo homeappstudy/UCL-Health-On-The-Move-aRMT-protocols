@@ -43,7 +43,7 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 4
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "min",
@@ -59,6 +59,81 @@
             "amount": 5,
             "repeat": 2
           },
+          "completionWindow": {
+            "unit": "day",
+            "amount": 3
+          }
+        }
+      },
+      {
+        "name": "RSES",
+        "showIntroduction": false,
+        "questionnaire": {
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "rses",
+          "avsc": "questionnaire"
+        },
+        "startText": {
+          "en": "This questionnaire is known as the RSES. ",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "endText": {
+          "en": "Thank you for completing the questionnaire",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "warn": {
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
+        },
+        "estimatedCompletionTime": 3,
+        "protocol": {
+          "repeatProtocol": {
+            "unit": "day",
+            "amount": 1
+          },
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [
+              795,
+              825,
+              855,
+              885
+            ]
+          },
+          "reminders": [
+            {
+              "offset": {
+                "unit": "min",
+                "amount": 15
+              },
+              "notification": {
+                "title": "Missed your RSES survey?",
+                "text": "You have missed your RSES task. Don't worry you can still complete it"
+              }
+            },
+            {
+              "offset": {
+                "unit": "min",
+                "amount": 30
+              },
+              "notification": {
+                "title": "You still have some time",
+                "text": "You still have time. Don't worry you can still complete it"
+              }
+            }
+          ],
           "completionWindow": {
             "unit": "day",
             "amount": 3
