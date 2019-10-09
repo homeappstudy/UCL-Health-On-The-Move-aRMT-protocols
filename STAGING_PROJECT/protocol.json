@@ -1,5 +1,5 @@
 {
-    "version": "0.3.13",
+    "version": "0.3.12",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -7,19 +7,16 @@
     ],
     "protocols": [
       {
-        "name": "TEST SAMP",
+        "name": "PHQ8",
         "showIntroduction": false,
-        "showInCalendar": false,
+        "showInCalendar": true,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "sample-field-types",
-          "avsc": "task",
-          "icon": {
-            "name": "checkmark-circle"
-          }
+          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "name": "phq8",
+          "avsc": "questionnaire"
         },
         "startText": {
-          "en": "Welcome to testing tasks",
+          "en": "This questionnaire is known as the PHQ8. Clinicians use it to assess current depression in patients. Please note that none of your answers will be collected today. Thank you for taking part in this focus group.",
           "it": "",
           "nl": "",
           "da": "",
@@ -46,18 +43,18 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 1
+            "amount": 4
           },
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              1095
+              750
             ]
           },
           "reminders": {
             "unit": "day",
-            "amount": 1,
-            "repeat": 2
+            "amount": 4,
+            "repeat": 1
           },
           "completionWindow": {
             "unit": "day",
