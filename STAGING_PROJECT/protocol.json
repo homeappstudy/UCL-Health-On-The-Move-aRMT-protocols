@@ -1,5 +1,5 @@
 {
-    "version": "0.3.16",
+    "version": "0.3.17",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -51,7 +51,10 @@
               810,
               840,
               870,
-              900
+              900,
+              930,
+              960,
+              990
             ]
           },
           "reminders": {
@@ -109,7 +112,10 @@
               795,
               825,
               855,
-              885
+              885,
+              915,
+              945,
+              975
             ]
           },
           "reminders": [
