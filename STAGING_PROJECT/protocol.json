@@ -1,5 +1,5 @@
 {
-    "version": "0.3.18",
+    "version": "0.3.19",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -8,7 +8,7 @@
     "protocols": [
       {
         "name": "PHQ8",
-        "showIntroduction": false,
+        "showIntroduction": true,
         "showInCalendar": true,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
@@ -48,13 +48,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              810,
-              840,
-              870,
-              900,
-              930,
-              960,
-              990
+              1085
             ]
           },
           "reminders": {
@@ -111,12 +105,7 @@
             "unitsFromZero": [
               795,
               825,
-              855,
-              885,
-              915,
-              945,
-              975,
-              985
+              855
             ]
           },
           "reminders": [
