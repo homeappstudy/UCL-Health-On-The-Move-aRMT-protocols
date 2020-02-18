@@ -1,5 +1,5 @@
 {
-    "version": "0.0.1",
+    "version": "0.0.2",
     "schemaVersion": "0.0.2",
     "name": "UCL TRAINING Project",
     "healthIssues": [
@@ -13,9 +13,9 @@
         "isDemo": false,
         "order": 3,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "sample-field-types",
-          "avsc": "task"
+          "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/demo/questionnaires/",
+          "name": "short",
+          "avsc": "questionnaire"
         },
         "startText": {
           "en": "Welcome to testing tasks",
@@ -50,22 +50,17 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              1000
+              1085
             ]
           },
           "reminders": {
-            "unit": "day",
-            "amount": 0,
-            "repeat": 0
+            "unit": "min",
+            "amount": 5,
+            "repeat": 2
           },
-          "clinicalProtocol": {
-            "requiresInClinicCompletion": true,
-            "repeatAfterClinicVisit": {
-              "unit": "min",
-              "unitsFromZero": [
-                4
-              ]
-            }
+          "completionWindow": {
+            "unit": "day",
+            "amount": 3
           }
         }
       },
