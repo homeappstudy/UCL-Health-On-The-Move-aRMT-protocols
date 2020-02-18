@@ -1,5 +1,5 @@
 {
-    "version": "0.0.2",
+    "version": "0.0.3",
     "schemaVersion": "0.0.2",
     "name": "UCL TRAINING Project",
     "healthIssues": [
@@ -50,7 +50,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              1085
+              940
             ]
           },
           "reminders": {
