@@ -50,6 +50,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
+              670,
               940
             ]
           },
