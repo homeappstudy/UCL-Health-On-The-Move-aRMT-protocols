@@ -18,40 +18,25 @@
           "avsc": "questionnaire"
         },
         "startText": {
-          "en": "Welcome to testing tasks",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+          "en": "Welcome to testing tasks"
         },
         "endText": {
-          "en": "Thank you for taking the time today.",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+          "en": "Thank you for taking the time today."
         },
         "warn": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
+          "en": ""
         },
         "estimatedCompletionTime": 2,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 1
+            "amount": 2
           },
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              670,
-              940
+              540,
+              2460
             ]
           },
           "reminders": {
@@ -70,7 +55,7 @@
         "showIntroduction": true,
         "showInCalendar": true,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "phq8",
           "avsc": "questionnaire"
         },
@@ -125,7 +110,7 @@
         "name": "RSES",
         "showIntroduction": false,
         "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
+          "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
           "name": "rses",
           "avsc": "questionnaire"
         },
