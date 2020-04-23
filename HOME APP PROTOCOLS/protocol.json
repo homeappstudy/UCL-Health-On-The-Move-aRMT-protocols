@@ -9,7 +9,7 @@
     {
       "name": "Short Questionnaire",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "short",
@@ -55,7 +55,7 @@
           {
             "offset": {
               "units": "min",
-              "amount": 5
+              "amount": 1
             },
             "notification": {
               "title": {
@@ -109,7 +109,7 @@
     {
       "name": "Demographics - Part I",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "demographics_part_1",
@@ -154,7 +154,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -210,7 +210,7 @@
     {
       "name": "Demographics - Part II",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "demographics_part_2",
@@ -255,7 +255,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -311,7 +311,7 @@
     {
       "name": "GP access and experience",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "GP_access",
@@ -356,7 +356,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -412,7 +412,7 @@
     {
       "name": "Employment and Occupational health",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "employment",
@@ -457,7 +457,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -513,7 +513,7 @@
     {
       "name": "Wellbeing",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "wellbeing",
@@ -558,7 +558,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -613,7 +613,7 @@
     {
       "name": "Health literacy",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "health_literacy",
@@ -658,7 +658,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -714,7 +714,7 @@
     {
       "name": "Sexual and Reproductive health",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "sexual_health",
@@ -759,7 +759,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -814,7 +814,7 @@
     {
       "name": "Mood and Depression",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "depression",
@@ -859,7 +859,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -915,7 +915,7 @@
     {
       "name": "Social connections and support",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "social_connection",
@@ -960,7 +960,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -1016,7 +1016,7 @@
     {
       "name": "Physical activity",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "physical_activity",
@@ -1061,7 +1061,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -1116,7 +1116,7 @@
     {
       "name": "Food security",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "food_security",
@@ -1161,7 +1161,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -1217,7 +1217,7 @@
     {
       "name": "Neighbourhood",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "neighbourhood",
@@ -1262,7 +1262,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
@@ -1318,7 +1318,7 @@
     {
       "name": "Alcohol, Smoking and Drugs",
       "showIntroduction": true,
-      "isdemo": true,
+      "isdemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
         "name": "alcohol",
@@ -1363,7 +1363,7 @@
             {
               "offset": {
                 "units": "min",
-                "amount": 5
+                "amount": 1
               },
               "notification": {
                 "title": {
