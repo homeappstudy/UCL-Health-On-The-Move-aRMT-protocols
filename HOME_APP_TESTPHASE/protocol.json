@@ -1,7 +1,7 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "schemaVersion": "0.0.1",
-  "name": "Home app protocols",
+  "name": "Home_APP_TESTPHASE",
   "healthIssues": [
     "social health"
   ],
@@ -11,7 +11,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "short",
         "avsc": "questionnaire"
       },
@@ -43,7 +43,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 7
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -102,7 +102,7 @@
         ],
         "completionwindow": {
           "unit": "day",
-          "amount": 7
+          "amount": 1
         }
       }
     },
@@ -111,7 +111,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "demographics_part_1",
         "avsc": "questionnaire"
       },
@@ -202,7 +202,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -212,7 +212,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "demographics_part_2",
         "avsc": "questionnaire"
       },
@@ -248,7 +248,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              11040
+              1680
             ]
           },
           "reminders": [
@@ -303,7 +303,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -313,7 +313,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "GP_access",
         "avsc": "questionnaire"
       },
@@ -349,7 +349,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              21120
+              2400
             ]
           },
           "reminders": [
@@ -404,7 +404,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -414,7 +414,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "employment",
         "avsc": "questionnaire"
       },
@@ -450,7 +450,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              31200
+              3120
             ]
           },
           "reminders": [
@@ -505,7 +505,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -515,7 +515,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "wellbeing",
         "avsc": "questionnaire"
       },
@@ -551,7 +551,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              41280
+              3840
             ]
           },
           "reminders": [
@@ -605,7 +605,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -615,7 +615,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "health_literacy",
         "avsc": "questionnaire"
       },
@@ -651,7 +651,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              51360
+              4560
             ]
           },
           "reminders": [
@@ -706,7 +706,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -716,7 +716,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "sexual_health",
         "avsc": "questionnaire"
       },
@@ -752,7 +752,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              61440
+              5280
             ]
           },
           "reminders": [
@@ -806,7 +806,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -816,7 +816,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "depression",
         "avsc": "questionnaire"
       },
@@ -852,7 +852,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              71520
+              6000
             ]
           },
           "reminders": [
@@ -907,7 +907,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -917,7 +917,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "social_connection",
         "avsc": "questionnaire"
       },
@@ -953,7 +953,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              81600
+              6720
             ]
           },
           "reminders": [
@@ -1008,7 +1008,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -1018,7 +1018,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "physical_activity",
         "avsc": "questionnaire"
       },
@@ -1054,7 +1054,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              91680
+              7440
             ]
           },
           "reminders": [
@@ -1108,7 +1108,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -1118,7 +1118,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "food_security",
         "avsc": "questionnaire"
       },
@@ -1154,7 +1154,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              101760
+              8160
             ]
           },
           "reminders": [
@@ -1209,7 +1209,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -1219,7 +1219,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "neighbourhood",
         "avsc": "questionnaire"
       },
@@ -1255,7 +1255,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              111840
+              8880
             ]
           },
           "reminders": [
@@ -1310,7 +1310,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
@@ -1320,7 +1320,7 @@
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
-        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/Questionnaires_HOME_app",
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
         "name": "alcohol",
         "avsc": "questionnaire"
       },
@@ -1356,7 +1356,7 @@
           "repeatQuestionnaire": {
             "unit": "min",
             "unitsFromZero": [
-              120480
+              9600
             ]
           },
           "reminders": [
@@ -1410,7 +1410,7 @@
           ],
           "completionwindow": {
             "unit": "day",
-            "amount": 14
+            "amount": 1
           }
         }
       }
