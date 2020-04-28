@@ -1,5 +1,5 @@
 {
-  "version": "0.0.5",
+  "version": "0.0.6",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -7,7 +7,7 @@
   ],
   "protocols": [
     {
-      "name": "Short Questionnaire",
+      "name": "Short",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -107,7 +107,7 @@
         }
       },
     {
-      "name": "Home app engagement",
+      "name": "Interest",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -208,7 +208,7 @@
       }
     },
     {
-      "name": "Demographics - Part I",
+      "name": "Demo I",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -309,7 +309,7 @@
       }
     },
     {
-      "name": "Demographics - Part II",
+      "name": "Demo II",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -410,7 +410,7 @@
       }
     },
     {
-      "name": "GP access and experience",
+      "name": "GP",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -511,7 +511,7 @@
       }
     },
     {
-      "name": "Employment and Occupational health",
+      "name": "Work",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -612,7 +612,7 @@
       }
     },
     {
-      "name": "Wellbeing",
+      "name": "Wellness",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -712,7 +712,7 @@
       }
     },
     {
-      "name": "Health literacy",
+      "name": "Health",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -813,7 +813,7 @@
       }
     },
     {
-      "name": "Sexual and Reproductive health",
+      "name": "Sexual",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -913,7 +913,7 @@
       }
     },
     {
-      "name": "Mood and Depression",
+      "name": "Mood",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -1014,7 +1014,7 @@
       }
     },
     {
-      "name": "Social connections and support",
+      "name": "Social",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -1115,7 +1115,7 @@
       }
     },
     {
-      "name": "Physical activity",
+      "name": "Physical",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -1215,7 +1215,7 @@
       }
     },
     {
-      "name": "Food security",
+      "name": "Food",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -1316,7 +1316,7 @@
       }
     },
     {
-      "name": "Neighbourhood",
+      "name": "Neighbour",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
@@ -1417,7 +1417,7 @@
       }
     },
     {
-      "name": "Alcohol, Smoking and Drugs",
+      "name": "Alcohol",
       "showIntroduction": true,
       "isdemo": false,
       "questionnaire": {
