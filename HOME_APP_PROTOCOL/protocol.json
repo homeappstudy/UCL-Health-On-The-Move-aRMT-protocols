@@ -107,6 +107,107 @@
       }
     },
     {
+      "name": "Home app engagement",
+      "showIntroduction": true,
+      "isdemo": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/RADAR-base/RADAR-REDCap-aRMT-Definitions/master/questionnaires/HOME_app",
+        "name": "engagement",
+        "avsc": "questionnaire"
+      },
+      "startText": {
+        "en": "The following question allows us to monitor your engagement with the HOME app",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "Many thanks for helping us do this!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 14,
+          "repeatQuestionnaire": {
+            "unit": "min",
+            "unitsFromZero": [
+              960
+            ]
+          },
+          "reminders": [
+            {
+              "offset": {
+                "units": "min",
+                "amount": 1
+              },
+              "notification": {
+                "title": {
+                  "en": "New survey!",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                },
+                "text": {
+                  "en": "You have a new 1 minute survey waiting to complete.",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                }
+              }
+            },
+            {
+              "offset": {
+                "units": "min",
+                "amount": 1440
+              },
+              "notification": {
+                "title": {
+                  "en": "Reminder!",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                },
+                "text": {
+                  "en": "You have a 1 minute survey still waiting to complete.",
+                  "it": "",
+                  "nl": "",
+                  "da": "",
+                  "de": "",
+                  "es": ""
+                }
+              }
+            }
+          ],
+          "completionwindow": {
+            "unit": "day",
+            "amount": 7
+          }
+        }
+      }
+    },
+    {
       "name": "Demographics - Part I",
       "showIntroduction": true,
       "isdemo": false,
