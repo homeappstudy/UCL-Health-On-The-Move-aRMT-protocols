@@ -1,5 +1,5 @@
 {
-  "version": "0.0.7",
+  "version": "0.0.8",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -24,7 +24,7 @@
         "es": ""
       },
       "endText": {
-        "en": "That’s it! Amazing! Thank you!",
+        "en": "That is it! Amazing! Thank you!",
         "it": "",
         "nl": "",
         "da": "",
@@ -612,7 +612,7 @@
       }
     },
     {
-      "name": "Wellness",
+      "name": "Wellbeing",
       "showIntroduction": true,
       "isDemo": false,
       "questionnaire": {
