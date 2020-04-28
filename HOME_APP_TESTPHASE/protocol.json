@@ -9,7 +9,7 @@
     {
       "name": "Short Questionnaire",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "short",
@@ -54,7 +54,7 @@
         "reminders": [
           {
             "offset": {
-              "units": "min",
+              "unit": "min",
               "amount": 1
             },
             "notification": {
@@ -78,7 +78,7 @@
           },
           {
             "offset": {
-              "units": "min",
+              "unit": "min",
               "amount": 1440
             },
             "notification": {
@@ -100,16 +100,16 @@
             }
           }
         ],
-        "completionwindow": {
+        "completionWindow": {
           "unit": "day",
           "amount": 2
-          }
         }
-      },
+      }
+    },
     {
       "name": "Home app engagement",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "engagement",
@@ -143,74 +143,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 3,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              960
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 1 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 3
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            960
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a 1 minute survey still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 1 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a 1 minute survey still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Demographics - Part I",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "demographics_part_1",
@@ -244,74 +244,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              960
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            960
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Demographics - Part II",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "demographics_part_2",
@@ -345,74 +345,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              2400
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            2400
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "GP access and experience",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "gp_access",
@@ -446,74 +446,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              3840
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            3840
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Employment and Occupational health",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "employment",
@@ -547,74 +547,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              5280
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            5280
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Wellbeing",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "wellbeing",
@@ -648,73 +648,73 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              6720
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            6720
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Health literacy",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "health_literacy",
@@ -748,74 +748,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              8160
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            8160
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Sexual and Reproductive health",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "sexual_health",
@@ -849,73 +849,73 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              9600
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            9600
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Mood and Depression",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "depression",
@@ -949,74 +949,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              11040
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            11040
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Social connections and support",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "social_connection",
@@ -1050,74 +1050,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              12480
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            12480
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Physical activity",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "physical_activity",
@@ -1151,73 +1151,73 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              13920
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            13920
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Food security",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "food_security",
@@ -1251,74 +1251,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              15360
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            15360
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Neighbourhood",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "neighbourhood",
@@ -1352,74 +1352,74 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              16800
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            16800
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "units": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "units": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     },
     {
       "name": "Alcohol, Smoking and Drugs",
       "showIntroduction": true,
-      "isdemo": false,
+      "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "alcohol",
@@ -1453,66 +1453,66 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "year",
-          "amount": 50,
-          "repeatQuestionnaire": {
-            "unit": "min",
-            "unitsFromZero": [
-              18240
-            ]
-          },
-          "reminders": [
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1
-              },
-              "notification": {
-                "title": {
-                  "en": "New survey!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have a new 5 minute survey waiting to complete.",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
-              }
+          "amount": 50
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitFromZero": [
+            18240
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
             },
-            {
-              "offset": {
-                "units": "min",
-                "amount": 1440
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               },
-              "notification": {
-                "title": {
-                  "en": "Reminder!",
-                  "it": "",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                },
-                "text": {
-                  "en": "You have 5 minute surveys still waiting to complete.",
-                  "nl": "",
-                  "da": "",
-                  "de": "",
-                  "es": ""
-                }
+              "text": {
+                "en": "You have a new 5 minute survey waiting to complete.",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
               }
             }
-          ],
-          "completionwindow": {
-            "unit": "day",
-            "amount": 2
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have 5 minute surveys still waiting to complete.",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
           }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
         }
       }
     }
