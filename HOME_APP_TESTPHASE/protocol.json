@@ -612,7 +612,7 @@
       }
     },
     {
-      "name": "Wellbeing",
+      "name": "Health",
       "showIntroduction": true,
       "isDemo": false,
       "questionnaire": {
@@ -712,7 +712,7 @@
       }
     },
     {
-      "name": "Health",
+      "name": "Literacy",
       "showIntroduction": true,
       "isDemo": false,
       "questionnaire": {
