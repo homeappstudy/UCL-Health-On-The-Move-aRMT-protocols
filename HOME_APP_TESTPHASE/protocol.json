@@ -1,5 +1,5 @@
 {
-  "version": "0.0.9",
+  "version": "0.0.10",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -124,7 +124,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Many thanks for helping us do this!",
+        "en": "Noted! Many thanks for helping us do this!",
         "it": "",
         "nl": "",
         "da": "",
