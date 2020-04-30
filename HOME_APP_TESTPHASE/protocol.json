@@ -1,5 +1,5 @@
 {
-  "version": "0.0.10",
+  "version": "0.0.11",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -113,7 +113,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "engagement",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "thumbs-up"
+        }
       },
       "startText": {
         "en": "The following question allows us to monitor your engagement with the HOME app",
@@ -214,7 +217,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "demographics_part_1",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "document"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion.",
@@ -315,7 +321,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "demographics_part_2",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "documents"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions about your health over the last 12 months.",
@@ -416,7 +425,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "gp_access",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "medkit"
+        }
       },
       "startText": {
         "en": "This survey relates to your access to a General Practitioner (GP) and your treatment in General Practice, including any barriers to care that you might have experienced.",
@@ -517,7 +529,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "employment",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "briefcase"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions about occupational (workplace) health. This includes questions about any injuries sustained or illnesses developing during, or because of, your work.",
@@ -618,7 +633,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "wellbeing",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "happy"
+        }
       },
       "startText": {
         "en": "This survey assesses your general health and wellbeing, including the impact of any — and all — illnesses on a broad range of functional domains. This survey also contains questions about your mental health. If you feel distressed at any point, you can choose to close the screen and — if you wish — finish the survey another time. Should you feel you need professional support because of negative emotions elicited by the survey, you can: 1. Talk to your GP urgently. They can recommend a local mental health support service referral. 2. Call 111 for the local mental health crisis team number or visit your local A&E (place of safety). 3.Visit www.mind.org.uk for support and advice. Mind UK helps anyone  experiencing a mental health problem. They also have an information line for non-urgent support and advice 0300 123 3393. 4. Visit the ‘Resources’ section of the HOME app.",
@@ -718,7 +736,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "health_literacy",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "ribbon"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions about how easy/difficult it is for you to find, understand and use information related to health, illness and medical care in the UK.",
@@ -819,7 +840,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "sexual_health",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "male-female"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. If you do not want to answer these questions, you can choose to close the screen. If you change your mind, you can complete the survey at another time. You can find further information about sexual and reproductive health through: 1. Visiting www.sexwise.fpa.org.uk/ for further information about sexual health and contraception. 2. Visiting www.nhs.uk/service-search/other-services/ to find local sexual health services in your area. 3. Visiting www.tht.org.uk for support and advice. The Terrence Higgins Trust (THT) is a UK charity providing support, advice and information about sexual health. You can contact the THT directly on 0808 802 1221, via email or by post. 4. Your GP — they can refer you to specialist sexual health services if needed. 5. Visiting the ‘Resources’ section of the HOME app.",
@@ -919,7 +943,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "depression",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "male-female"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions that can measure you mood and if applicable, depression severity. This survey contains questions about your mental health. If you feel distressed at any point, you can choose to close the screen and — if you wish — finish the survey another time. Should you feel you need professional support because of any negative emotions elicited by the survey, you can: 1. Talk to your GP urgently. They can recommend a local mental health support service referral. 2. Call 111 for the local mental health crisis team number or visit your local A&E (place of safety). 3. Visit www.mind.org.uk for support and advice. Mind UK helps anyone  experiencing a mental health problem. They also have an information line for non-urgent support and advice 0300 123 3393. 4. Visit the ‘Resources’ section of the HOME app.",
@@ -1020,7 +1047,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "social_connection",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "people"
+        }
       },
       "startText": {
         "en": "This survey relates to your social relationships. We will be asking questions about the total number of close relatives, extended family members and friends, as well as the intensity of your contact with them and how much support you get from this.",
@@ -1121,7 +1151,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "physical_activity",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "fitness"
+        }
       },
       "startText": {
         "en": "In this survey, we are interested in finding out about your physical activities. The questions will ask you about the time you spent being physically active in the last 7 days, even if you do not consider yourself to be an active person. Please think about the activities you do at work, as part of your house and yard work, to get from place to place, and in your spare time for recreation, exercise or sport.",
@@ -1221,7 +1254,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "food_security",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "restaurant"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking if you, or your household, experienced any disruptions to food supply in the last year and, if so, how severe this has been.",
@@ -1322,7 +1358,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "neighbourhood",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "trail-sign"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions in relation to your neighbourhood, including how safe you feel it is and how satisfied you are living there.",
@@ -1423,7 +1462,10 @@
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "alcohol",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "beer"
+        }
       },
       "startText": {
         "en": "In this survey, we will be asking you questions about any alcohol or drug use and tobacco smoking habits.",
