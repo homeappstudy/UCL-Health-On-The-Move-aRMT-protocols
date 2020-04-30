@@ -1,6 +1,6 @@
 {
-  "version": "0.0.1",
-  "schemaVersion": "0.0.3",
+  "version": "0.0.3",
+  "schemaVersion": "0.0.1",
   "name": "HOME_APP_PROTOCOL",
   "healthIssues": [
     "social health"
