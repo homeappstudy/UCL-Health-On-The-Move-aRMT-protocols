@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "schemaVersion": "0.0.1",
   "name": "HOME_APP_PROTOCOL",
   "healthIssues": [
@@ -304,7 +304,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -405,7 +405,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -506,7 +506,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -607,7 +607,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -707,7 +707,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -808,7 +808,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -908,7 +908,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -1009,7 +1009,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -1110,7 +1110,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -1210,7 +1210,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -1311,7 +1311,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -1412,7 +1412,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     },
@@ -1512,7 +1512,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 14
+          "amount": 13
         }
       }
     }
