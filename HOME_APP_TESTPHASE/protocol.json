@@ -1,5 +1,5 @@
 {
-  "version": "0.0.12",
+  "version": "0.0.13",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -118,7 +118,7 @@
         "name": "engagement",
         "avsc": "questionnaire",
         "icon": {
-          "name": "thumbs-up"
+          "name": "information"
         }
       },
       "startText": {
@@ -222,7 +222,7 @@
         "name": "demographics_part_1",
         "avsc": "questionnaire",
         "icon": {
-          "name": "document"
+          "name": "body"
         }
       },
       "startText": {
@@ -326,7 +326,7 @@
         "name": "demographics_part_2",
         "avsc": "questionnaire",
         "icon": {
-          "name": "documents"
+          "name": "body-outline"
         }
       },
       "startText": {
@@ -741,7 +741,7 @@
         "name": "health_literacy",
         "avsc": "questionnaire",
         "icon": {
-          "name": "ribbon"
+          "name": "school"
         }
       },
       "startText": {
@@ -845,7 +845,7 @@
         "name": "sexual_health",
         "avsc": "questionnaire",
         "icon": {
-          "name": "male-female"
+          "name": "transgender"
         }
       },
       "startText": {
@@ -948,7 +948,7 @@
         "name": "depression",
         "avsc": "questionnaire",
         "icon": {
-          "name": "male-female"
+          "name": "heart-half"
         }
       },
       "startText": {
@@ -1156,7 +1156,7 @@
         "name": "physical_activity",
         "avsc": "questionnaire",
         "icon": {
-          "name": "fitness"
+          "name": "bicycle"
         }
       },
       "startText": {
@@ -1363,7 +1363,7 @@
         "name": "neighbourhood",
         "avsc": "questionnaire",
         "icon": {
-          "name": "trail-sign"
+          "name": "home"
         }
       },
       "startText": {
