@@ -1,5 +1,5 @@
 {
-  "version": "0.0.13",
+  "version": "0.0.14",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -122,7 +122,7 @@
         }
       },
       "startText": {
-        "en": "The following question allows us to monitor your engagement with the HOME app",
+        "en": "The following question allows us to learn more about your engagement with the HOME app",
         "it": "",
         "nl": "",
         "da": "",
