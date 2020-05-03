@@ -1,5 +1,5 @@
 {
-  "version": "0.0.15",
+  "version": "0.0.16",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -15,7 +15,7 @@
         "name": "short",
         "avsc": "questionnaire",
         "icon": {
-          "name": "play-forward"
+          "name": "play"
         }
       },
       "startText": {
