@@ -326,7 +326,7 @@
         "name": "demographics_part_2",
         "avsc": "questionnaire",
         "icon": {
-          "name": "body-outline"
+          "name": "fitness"
         }
       },
       "startText": {
