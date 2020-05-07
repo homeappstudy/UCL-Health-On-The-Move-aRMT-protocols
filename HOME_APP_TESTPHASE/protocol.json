@@ -1,5 +1,5 @@
 {
-  "version": "0.0.16",
+  "version": "0.0.17",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -741,7 +741,7 @@
         "name": "health_literacy",
         "avsc": "questionnaire",
         "icon": {
-          "name": "school"
+          "name": "library"
         }
       },
       "startText": {
@@ -948,7 +948,7 @@
         "name": "depression",
         "avsc": "questionnaire",
         "icon": {
-          "name": "heart-half"
+          "name": "heart"
         }
       },
       "startText": {
