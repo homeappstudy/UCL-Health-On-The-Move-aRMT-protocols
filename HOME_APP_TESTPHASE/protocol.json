@@ -1,5 +1,5 @@
 {
-  "version": "0.0.21",
+  "version": "0.0.22",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -745,7 +745,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about how easy/difficult it is for you to find, understand and use information related to health, illness and medical care in the UK.",
+        "en": "The following questions are about your experience of being able to find, understand and use information related to health, illness and medical care in the UK.",
         "it": "",
         "nl": "",
         "da": "",
