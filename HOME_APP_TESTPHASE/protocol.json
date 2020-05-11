@@ -214,7 +214,7 @@
       }
     },
     {
-      "name": "Demo I",
+      "name": "Demographics I",
       "showIntroduction": true,
       "isDemo": false,
       "questionnaire": {
@@ -318,7 +318,7 @@
       }
     },
     {
-      "name": "Demo II",
+      "name": "Demographics II",
       "showIntroduction": true,
       "isDemo": false,
       "questionnaire": {
