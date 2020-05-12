@@ -1467,7 +1467,7 @@
         "name": "alcohol",
         "avsc": "questionnaire",
         "icon": {
-          "name": "beer"
+          "name": "wine"
         }
       },
       "startText": {
