@@ -1,5 +1,5 @@
 {
-  "version": "0.0.23",
+  "version": "0.0.24",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -1471,7 +1471,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about any alcohol or drug use and tobacco smoking habits.",
+        "en": "In this survey, we will be asking you questions about any alcohol and other drug use and tobacco smoking habits.",
         "it": "",
         "nl": "",
         "da": "",
