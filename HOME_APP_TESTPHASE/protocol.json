@@ -326,7 +326,7 @@
         "name": "demographics_part_2",
         "avsc": "questionnaire",
         "icon": {
-          "name": "fitness"
+          "name": "pulse"
         }
       },
       "startText": {
@@ -741,7 +741,7 @@
         "name": "health_literacy",
         "avsc": "questionnaire",
         "icon": {
-          "name": "library"
+          "name": "glasses"
         }
       },
       "startText": {
