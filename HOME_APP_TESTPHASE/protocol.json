@@ -1,5 +1,5 @@
 {
-  "version": "0.0.27",
+  "version": "0.0.28",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -642,7 +642,7 @@
         }
       },
       "startText": {
-        "en": "This survey assesses your general health and wellbeing, including the impact of any and all illnesses on a broad range of functional domains. This survey also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the ‘Resources’ section.",
+        "en": "This survey assesses your general health and wellbeing, including the impact of any and all illnesses on a broad range of functional domains. This survey also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -849,7 +849,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. You can find further information about sexual and reproductive health in the “Resources” section.",
+        "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. You can find further information about sexual and reproductive health in the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -952,7 +952,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions that can measure you mood and if applicable, depression severity. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the ‘Resources’ section.",
+        "en": "In this survey, we will be asking you questions that can measure you mood and if applicable, depression severity. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
