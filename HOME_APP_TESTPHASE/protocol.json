@@ -1,5 +1,5 @@
 {
-  "version": "0.0.28",
+  "version": "0.0.29",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -8,7 +8,7 @@
   "protocols": [
     {
       "name": "Short",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -111,7 +111,7 @@
     },
     {
       "name": "Interest",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -215,7 +215,7 @@
     },
     {
       "name": "Demography I",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -319,7 +319,7 @@
     },
     {
       "name": "Demography II",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -423,7 +423,7 @@
     },
     {
       "name": "GP",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -527,7 +527,7 @@
     },
     {
       "name": "Work",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -631,7 +631,7 @@
     },
     {
       "name": "Health",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -734,7 +734,7 @@
     },
     {
       "name": "Literacy",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -838,7 +838,7 @@
     },
     {
       "name": "Sexual health",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -941,7 +941,7 @@
     },
     {
       "name": "Mood",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -1045,7 +1045,7 @@
     },
     {
       "name": "Social",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -1149,7 +1149,7 @@
     },
     {
       "name": "Physical",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -1252,7 +1252,7 @@
     },
     {
       "name": "Food",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -1356,7 +1356,7 @@
     },
     {
       "name": "Neighbourhood",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -1460,7 +1460,7 @@
     },
     {
       "name": "Substance use",
-      "showIntroduction": true,
+      "showIntroduction": once,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
