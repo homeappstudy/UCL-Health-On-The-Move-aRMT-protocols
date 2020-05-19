@@ -1,5 +1,5 @@
 {
-  "version": "0.0.32",
+  "version": "0.0.33",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -642,7 +642,7 @@
         }
       },
       "startText": {
-        "en": "This survey assesses your general health and wellbeing, including the impact of any and all illnesses on a broad range of functional domains. This survey also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+        "en": "This survey assesses your general health and wellbeing, including the impact of any illnesses on a broad range of functional activities. This survey also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -650,7 +650,7 @@
         "es": ""
       },
       "endText": {
-        "en": "All done. Thank you for helping us helping others",
+        "en": "All done. Thank you for helping us to help others",
         "it": "",
         "nl": "",
         "da": "",
