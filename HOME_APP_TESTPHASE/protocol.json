@@ -1,5 +1,5 @@
 {
-  "version": "0.0.30",
+  "version": "0.0.32",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -753,7 +753,7 @@
         "es": ""
       },
       "endText": {
-        "en": "You are half way through the study! Tremendous!",
+        "en": "You are halfway through the study! Tremendous!",
         "it": "",
         "nl": "",
         "da": "",
