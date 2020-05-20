@@ -1,5 +1,5 @@
 {
-  "version": "0.0.12",
+  "version": "0.0.33",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -8,15 +8,18 @@
   "protocols": [
     {
       "name": "Short",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "short",
-        "avsc": "questionnaire"
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "play"
+        }
       },
       "startText": {
-        "en": "In this 1 minute survey will be asking you questions about your general health in the last week and if you have developed an illness or sustained an injury. We will also ask you questions about any contact with healthcare providers or health support organisations and how you have experienced your contact with them. This will be a regularly recurring survey during the HOME study. This will allow us to capture changes in your health over time and examine the type and quality of care you received during the course of the study. If you have had no health complaints in the last week then it takes only 15 second to complete.",
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will take one minute to complete or less than 15 seconds if you have had no health complaints recently.",
         "it": "",
         "nl": "",
         "da": "",
@@ -108,18 +111,18 @@
     },
     {
       "name": "Interest",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "engagement",
         "avsc": "questionnaire",
         "icon": {
-          "name": "thumbs-up"
+          "name": "information"
         }
       },
       "startText": {
-        "en": "The following question allows us to monitor your engagement with the HOME app",
+        "en": "The following question will allow us to learn more about your ongoing engagement with the HOME app",
         "it": "",
         "nl": "",
         "da": "",
@@ -211,19 +214,19 @@
       }
     },
     {
-      "name": "Demo I",
-      "showIntroduction": true,
+      "name": "Demography I",
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "demographics_part_1",
         "avsc": "questionnaire",
         "icon": {
-          "name": "document"
+          "name": "body"
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. If you do not want to answer these questions, you can choose to close the screen. If you change your mind, you can complete the survey at another time. You can find further information about sexual and reproductive health through: 1. Visiting www.sexwise.fpa.org.uk/ for further information about sexual health and contraception. 2. Visiting www.nhs.uk/service-search/other-services/ to find local sexual health services in your area. 3. Visiting www.tht.org.uk for support and advice. The Terrence Higgins Trust (THT) is a UK charity providing support, advice and information about sexual health. You can contact the THT directly on 0808 802 1221, via email or by post. 4. Your GP — they can refer you to specialist sexual health services if needed. 5. Visiting the ‘Resources’ section of the HOME app.",
+        "en": "In this survey, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion.",
         "it": "",
         "nl": "",
         "da": "",
@@ -315,15 +318,15 @@
       }
     },
     {
-      "name": "Demo II",
-      "showIntroduction": true,
+      "name": "Demography II",
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "demographics_part_2",
         "avsc": "questionnaire",
         "icon": {
-          "name": "documents"
+          "name": "pulse"
         }
       },
       "startText": {
@@ -420,7 +423,7 @@
     },
     {
       "name": "GP",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -524,7 +527,7 @@
     },
     {
       "name": "Work",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -628,7 +631,7 @@
     },
     {
       "name": "Health",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -639,7 +642,7 @@
         }
       },
       "startText": {
-        "en": "This survey assesses your general health and wellbeing, including the impact of any — and all — illnesses on a broad range of functional domains. This survey also contains questions about your mental health. If you feel distressed at any point, you can choose to close the screen and — if you wish — finish the survey another time. Should you feel you need professional support because of negative emotions elicited by the survey, you can: 1. Talk to your GP urgently. They can recommend a local mental health support service referral. 2. Call 111 for the local mental health crisis team number or visit your local A&E (place of safety). 3.Visit www.mind.org.uk for support and advice. Mind UK helps anyone  experiencing a mental health problem. They also have an information line for non-urgent support and advice 0300 123 3393. 4. Visit the ‘Resources’ section of the HOME app.",
+        "en": "This survey assesses your general health and wellbeing, including the impact of any illnesses on a broad range of functional activities. This survey also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -647,7 +650,7 @@
         "es": ""
       },
       "endText": {
-        "en": "All done. Thank you for helping us helping others",
+        "en": "All done. Thank you for helping us to help others",
         "it": "",
         "nl": "",
         "da": "",
@@ -731,18 +734,18 @@
     },
     {
       "name": "Literacy",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "health_literacy",
         "avsc": "questionnaire",
         "icon": {
-          "name": "ribbon"
+          "name": "glasses"
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about how easy/difficult it is for you to find, understand and use information related to health, illness and medical care in the UK.",
+        "en": "The following questions are about your experience of being able to find, understand and use information related to health, illness and medical care in the UK.",
         "it": "",
         "nl": "",
         "da": "",
@@ -750,7 +753,7 @@
         "es": ""
       },
       "endText": {
-        "en": "You are half way through the study! Tremendous!",
+        "en": "You are halfway through the study! Tremendous!",
         "it": "",
         "nl": "",
         "da": "",
@@ -834,19 +837,19 @@
       }
     },
     {
-      "name": "Sexual",
-      "showIntroduction": true,
+      "name": "Sexual health",
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "sexual_health",
         "avsc": "questionnaire",
         "icon": {
-          "name": "male-female"
+          "name": "transgender"
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. If you do not want to answer these questions, you can choose to close the screen. If you change your mind, you can complete the survey at another time. You can find further information about sexual and reproductive health through: 1. Visiting www.sexwise.fpa.org.uk/ for further information about sexual health and contraception. 2. Visiting www.nhs.uk/service-search/other-services/ to find local sexual health services in your area. 3. Visiting www.tht.org.uk for support and advice. The Terrence Higgins Trust (THT) is a UK charity providing support, advice and information about sexual health. You can contact the THT directly on 0808 802 1221, via email or by post. 4. Your GP — they can refer you to specialist sexual health services if needed. 5. Visiting the ‘Resources’ section of the HOME app.",
+        "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. You can find further information about sexual and reproductive health in the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -854,7 +857,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you, another completed - Your effort will contribute to better wellbeing and health standards for UK migants like yourself.",
+        "en": "Thank you, another survey completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself.",
         "it": "",
         "nl": "",
         "da": "",
@@ -938,18 +941,18 @@
     },
     {
       "name": "Mood",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "depression",
         "avsc": "questionnaire",
         "icon": {
-          "name": "male-female"
+          "name": "heart"
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions that can measure you mood and if applicable, depression severity. This survey contains questions about your mental health. If you feel distressed at any point, you can choose to close the screen and — if you wish — finish the survey another time. Should you feel you need professional support because of any negative emotions elicited by the survey, you can: 1. Talk to your GP urgently. They can recommend a local mental health support service referral. 2. Call 111 for the local mental health crisis team number or visit your local A&E (place of safety). 3. Visit www.mind.org.uk for support and advice. Mind UK helps anyone  experiencing a mental health problem. They also have an information line for non-urgent support and advice 0300 123 3393. 4. Visit the ‘Resources’ section of the HOME app.",
+        "en": "In this survey, we will be asking you questions that can measure you mood and if applicable, depression severity. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -957,7 +960,7 @@
         "es": ""
       },
       "endText": {
-        "en": "We know your time is precious - Thank you again for taking the time - on behalf of the whole HOME app research team.",
+        "en": "We know your time is precious. On behalf of the whole HOME app research team — thank you again for taking the time to complete this survey.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1042,7 +1045,7 @@
     },
     {
       "name": "Social",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -1146,14 +1149,14 @@
     },
     {
       "name": "Physical",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "physical_activity",
         "avsc": "questionnaire",
         "icon": {
-          "name": "fitness"
+          "name": "bicycle"
         }
       },
       "startText": {
@@ -1249,7 +1252,7 @@
     },
     {
       "name": "Food",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -1352,15 +1355,15 @@
       }
     },
     {
-      "name": "Neighbour",
-      "showIntroduction": true,
+      "name": "Neighbourhood",
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "neighbourhood",
         "avsc": "questionnaire",
         "icon": {
-          "name": "trail-sign"
+          "name": "home"
         }
       },
       "startText": {
@@ -1372,7 +1375,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Just one more survey to go - It has been a great journey with you.",
+        "en": "Just one more survey to go — it has been a great journey with you.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1456,19 +1459,19 @@
       }
     },
     {
-      "name": "Alcohol",
-      "showIntroduction": true,
+      "name": "Substance use",
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
         "name": "alcohol",
         "avsc": "questionnaire",
         "icon": {
-          "name": "beer"
+          "name": "wine"
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about any alcohol or drug use and tobacco smoking habits.",
+        "en": "In this survey, we will be asking you questions about any alcohol and other drug use and tobacco smoking habits.",
         "it": "",
         "nl": "",
         "da": "",
