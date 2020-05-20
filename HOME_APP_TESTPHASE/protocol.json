@@ -1,5 +1,5 @@
 {
-  "version": "0.0.11",
+  "version": "0.0.12",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -223,7 +223,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion.",
+        "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. If you do not want to answer these questions, you can choose to close the screen. If you change your mind, you can complete the survey at another time. You can find further information about sexual and reproductive health through: 1. Visiting www.sexwise.fpa.org.uk/ for further information about sexual health and contraception. 2. Visiting www.nhs.uk/service-search/other-services/ to find local sexual health services in your area. 3. Visiting www.tht.org.uk for support and advice. The Terrence Higgins Trust (THT) is a UK charity providing support, advice and information about sexual health. You can contact the THT directly on 0808 802 1221, via email or by post. 4. Your GP — they can refer you to specialist sexual health services if needed. 5. Visiting the ‘Resources’ section of the HOME app.",
         "it": "",
         "nl": "",
         "da": "",
