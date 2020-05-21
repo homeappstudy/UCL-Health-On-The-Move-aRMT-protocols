@@ -1,5 +1,5 @@
 {
-  "version": "0.0.35",
+  "version": "0.0.36",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -1056,7 +1056,7 @@
         }
       },
       "startText": {
-        "en": "This survey relates to your social relationships. We will be asking questions about the total number of close relatives, extended family members and friends, as well as the intensity of your contact with them and how much support you get from this.",
+        "en": "This survey relates to your social relationships. We will be asking you questions about how many social relationships you have and how much support you get from them.",
         "it": "",
         "nl": "",
         "da": "",
