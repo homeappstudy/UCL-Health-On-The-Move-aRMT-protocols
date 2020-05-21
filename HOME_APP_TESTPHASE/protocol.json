@@ -1,5 +1,5 @@
 {
-  "version": "0.0.36",
+  "version": "0.0.38",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -19,7 +19,7 @@
         }
       },
       "startText": {
-        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will take one minute to complete or less than 15 seconds if you have had no health complaints recently.",
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
         "it": "",
         "nl": "",
         "da": "",
