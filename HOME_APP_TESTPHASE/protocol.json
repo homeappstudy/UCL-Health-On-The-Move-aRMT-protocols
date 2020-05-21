@@ -1,5 +1,5 @@
 {
-  "version": "0.0.33",
+  "version": "0.0.34",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -650,7 +650,7 @@
         "es": ""
       },
       "endText": {
-        "en": "All done. Thank you for helping us to help others",
+        "en": "All done. Thank you for helping us to help others. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -857,7 +857,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you, another survey completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself.",
+        "en": "Thank you, another survey completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself. For further support with issues raised in this survey, visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -952,7 +952,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions that can measure you mood and if applicable, depression severity. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+        "en": "n this survey, we will be asking you questions about your mood. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -960,7 +960,7 @@
         "es": ""
       },
       "endText": {
-        "en": "We know your time is precious. On behalf of the whole HOME app research team — thank you again for taking the time to complete this survey.",
+        "en": "We know your time is precious. On behalf of the whole HOME app research team, thank you again for taking the time to complete this survey. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
