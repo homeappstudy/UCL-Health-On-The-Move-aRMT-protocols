@@ -1,5 +1,5 @@
 {
-  "version": "0.0.38",
+  "version": "0.0.39",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -1479,7 +1479,7 @@
         "es": ""
       },
       "endText": {
-        "en": "You have reached the end of this study! Each and every survey you have filled out has helped us better understand what UK migrants' needs are. This can inform new policies to improves wellbeing, healh care and services for the migrant community that you are part of. Again, many, many thanks for participating on behalf of the whole UCL HOME app study team. We hope we can reach out to you again in the future for new surveys covering other aspects of life after migration to the UK.",
+        "en": "You have reached the end of this study! Every survey you have filled out has helped us better understand the needs of UK migrants. This can inform new policies to improve wellbeing, health care and services for the migrant community. Again, many thanks for participating on behalf of the whole UCL HOME app team!",
         "it": "",
         "nl": "",
         "da": "",
