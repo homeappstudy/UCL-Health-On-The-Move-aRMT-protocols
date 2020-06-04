@@ -1,5 +1,5 @@
 {
-  "version": "0.0.39",
+  "version": "0.0.40",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -214,7 +214,7 @@
       }
     },
     {
-      "name": "Demography I",
+      "name": "About you",
       "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
@@ -318,7 +318,7 @@
       }
     },
     {
-      "name": "Demography II",
+      "name": "About you II",
       "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
@@ -1271,7 +1271,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Awesome - Every completed survey counts",
+        "en": "Thank you - Every completed survey counts",
         "it": "",
         "nl": "",
         "da": "",
