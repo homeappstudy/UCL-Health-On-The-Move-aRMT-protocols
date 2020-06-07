@@ -1,5 +1,5 @@
 {
-  "version": "0.0.40",
+  "version": "0.0.41",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -952,7 +952,7 @@
         }
       },
       "startText": {
-        "en": "n this survey, we will be asking you questions about your mood and its effect on your life. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+        "en": "In this survey, we will be asking you questions about your mood and its effect on your life. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
