@@ -1,5 +1,5 @@
 {
-  "version": "0.0.41",
+  "version": "0.0.42",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -1375,7 +1375,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Just one more survey to go — it has been a great journey with you.",
+        "en": "Just one more survey to go. It has been a great journey with you.",
         "it": "",
         "nl": "",
         "da": "",
