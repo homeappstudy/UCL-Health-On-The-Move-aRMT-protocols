@@ -1,5 +1,5 @@
 {
-  "version": "0.0.33",
+  "version": "0.0.42",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -19,7 +19,7 @@
         }
       },
       "startText": {
-        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will take one minute to complete or less than 15 seconds if you have had no health complaints recently.",
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
         "it": "",
         "nl": "",
         "da": "",
@@ -214,7 +214,7 @@
       }
     },
     {
-      "name": "Demography I",
+      "name": "About you",
       "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
@@ -318,7 +318,7 @@
       }
     },
     {
-      "name": "Demography II",
+      "name": "About you II",
       "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
@@ -650,7 +650,7 @@
         "es": ""
       },
       "endText": {
-        "en": "All done. Thank you for helping us to help others",
+        "en": "All done. Thank you for helping us to help others. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -857,7 +857,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you, another survey completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself.",
+        "en": "Thank you, another survey completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself. For further support with issues raised in this survey, visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -952,7 +952,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions that can measure you mood and if applicable, depression severity. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+        "en": "In this survey, we will be asking you questions about your mood and its effect on your life. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -960,7 +960,7 @@
         "es": ""
       },
       "endText": {
-        "en": "We know your time is precious. On behalf of the whole HOME app research team — thank you again for taking the time to complete this survey.",
+        "en": "We know your time is precious. On behalf of the whole HOME app research team, thank you again for taking the time to complete this survey. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1056,7 +1056,7 @@
         }
       },
       "startText": {
-        "en": "This survey relates to your social relationships. We will be asking questions about the total number of close relatives, extended family members and friends, as well as the intensity of your contact with them and how much support you get from this.",
+        "en": "This survey relates to your social relationships. We will be asking you questions about how many social relationships you have and how much support you get from them.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1271,7 +1271,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Awesome - Every completed survey counts",
+        "en": "Thank you - Every completed survey counts",
         "it": "",
         "nl": "",
         "da": "",
@@ -1375,7 +1375,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Just one more survey to go — it has been a great journey with you.",
+        "en": "Just one more survey to go. It has been a great journey with you.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1479,7 +1479,7 @@
         "es": ""
       },
       "endText": {
-        "en": "You have reached the end of this study! Each and every survey you have filled out has helped us better understand what UK migrants' needs are. This can inform new policies to improves wellbeing, healh care and services for the migrant community that you are part of. Again, many, many thanks for participating on behalf of the whole UCL HOME app study team. We hope we can reach out to you again in the future for new surveys covering other aspects of life after migration to the UK.",
+        "en": "You have reached the end of this study! Every survey you have filled out has helped us better understand the needs of UK migrants. This can inform new policies to improve wellbeing, health care and services for the migrant community. Again, many thanks for participating on behalf of the whole UCL HOME app team!",
         "it": "",
         "nl": "",
         "da": "",
