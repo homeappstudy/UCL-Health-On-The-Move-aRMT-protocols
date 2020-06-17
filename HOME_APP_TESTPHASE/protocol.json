@@ -1,5 +1,5 @@
 {
-  "version": "0.0.48",
+  "version": "0.0.49",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -51,34 +51,10 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            765
+            935
           ]
         },
         "reminders": [
-          {
-            "offset": {
-              "unit": "min",
-              "amount": 1
-            },
-            "notification": {
-              "title": {
-                "en": "New survey!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a new 1 minute survey waiting to complete",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          },
           {
             "offset": {
               "unit": "min",
@@ -154,34 +130,10 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            960
+            945
           ]
         },
         "reminders": [
-          {
-            "offset": {
-              "unit": "min",
-              "amount": 1
-            },
-            "notification": {
-              "title": {
-                "en": "New survey!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a new 1 minute survey waiting to complete.",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          },
           {
             "offset": {
               "unit": "min",
