@@ -1,5 +1,5 @@
 {
-  "version": "0.0.49",
+  "version": "0.0.51",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -51,10 +51,33 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            935
+            690
           ]
         },
         "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
+            },
+            "notification": {
+              "title": {
+                "en": "New Survey! Short",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a new 1 minute survey waiting to complete.",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          },
           {
             "offset": {
               "unit": "min",
@@ -130,10 +153,33 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            945
+            700
           ]
         },
         "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1
+            },
+            "notification": {
+              "title": {
+                "en": "New Survey! Interest",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a new 1 minute survey waiting to complete.",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          },
           {
             "offset": {
               "unit": "min",
@@ -221,7 +267,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey!: About you",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -325,7 +371,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey! About you II",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -429,7 +475,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey!: GP",
                 "it": "",
                 "nl": "",
                 "da": "",
