@@ -1,5 +1,5 @@
 {
-  "version": "0.0.54",
+  "version": "0.0.55",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -51,7 +51,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            760
+            840
           ]
         },
         "reminders": [
@@ -62,7 +62,7 @@
             },
             "notification": {
               "title": {
-                "en": "New Survey! Short",
+                "en": "New Survey! Short 840",
                 "it": "",
                 "nl": "",
                 "da": "",
