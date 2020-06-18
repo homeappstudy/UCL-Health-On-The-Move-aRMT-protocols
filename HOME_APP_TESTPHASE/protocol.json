@@ -1,5 +1,5 @@
 {
-  "version": "0.0.58  ",
+  "version": "0.0.59",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -51,7 +51,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            935
+            1095
           ]
         },
         "reminders": [
@@ -153,7 +153,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            745
+            1080
           ]
         },
         "reminders": [
