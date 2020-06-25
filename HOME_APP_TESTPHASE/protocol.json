@@ -1,5 +1,5 @@
 {
-  "version": "0.0.42",
+  "version": "0.0.43",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -845,7 +845,7 @@
         "name": "sexual_health",
         "avsc": "questionnaire",
         "icon": {
-          "name": "transgender"
+          "name": "ellipse"
         }
       },
       "startText": {
