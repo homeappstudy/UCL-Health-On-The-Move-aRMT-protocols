@@ -733,7 +733,7 @@
       }
     },
     {
-      "name": "Literacy",
+      "name": "Health Literacy",
       "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
