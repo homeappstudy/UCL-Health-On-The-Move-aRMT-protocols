@@ -1,5 +1,5 @@
 {
-  "version": "0.0.42",
+  "version": "0.0.43",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -111,7 +111,7 @@
     },
     {
       "name": "Interest",
-      "showIntroduction": "once",
+      "showIntroduction": true,
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -122,7 +122,7 @@
         }
       },
       "startText": {
-        "en": "The following question will allow us to learn more about your ongoing engagement with the HOME app",
+        "en": "Please answer the following questions with regard to your most recent use of the HOME app",
         "it": "",
         "nl": "",
         "da": "",
@@ -845,7 +845,7 @@
         "name": "sexual_health",
         "avsc": "questionnaire",
         "icon": {
-          "name": "transgender"
+          "name": "filter"
         }
       },
       "startText": {
