@@ -58,7 +58,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -161,7 +161,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -265,7 +265,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -369,7 +369,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -473,7 +473,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -577,7 +577,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -681,7 +681,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -784,7 +784,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -888,7 +888,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -991,7 +991,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -1095,7 +1095,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -1199,7 +1199,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -1302,7 +1302,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -1406,7 +1406,7 @@
           {
             "offset": {
               "units": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
@@ -1510,7 +1510,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1
+              "amount": 240
             },
             "notification": {
               "title": {
