@@ -1,5 +1,5 @@
 {
-  "version": "0.0.46",
+  "version": "0.0.47",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -46,7 +46,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 2
+          "amount": 1
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -105,7 +105,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 2
         }
       }
     },
@@ -149,7 +149,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 3
+          "amount": 2
         },
         "repeatQuestionnaire": {
           "unit": "min",
