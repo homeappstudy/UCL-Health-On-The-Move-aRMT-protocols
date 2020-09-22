@@ -1,5 +1,5 @@
 {
-  "version": "0.0.47",
+  "version": "0.0.48",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -58,7 +58,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount":
             },
             "notification": {
               "title": {
@@ -82,7 +82,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount":
             },
             "notification": {
               "title": {
@@ -161,7 +161,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount":
             },
             "notification": {
               "title": {
@@ -185,7 +185,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount":
             },
             "notification": {
               "title": {
@@ -265,7 +265,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount":
             },
             "notification": {
               "title": {
@@ -289,7 +289,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount":
             },
             "notification": {
               "title": {
