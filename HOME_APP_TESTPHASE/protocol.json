@@ -45,8 +45,8 @@
       "estimatedCompletionTime": 1,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 1
+          "unit": "year",
+          "amount": 50
         },
         "repeatQuestionnaire": {
           "unit": "min",
@@ -251,8 +251,8 @@
       "estimatedCompletionTime": 1,
       "protocol": {
         "repeatProtocol": {
-          "unit": "day",
-          "amount": 2
+          "unit": "year",
+          "amount": 50
         },
         "repeatQuestionnaire": {
           "unit": "min",
