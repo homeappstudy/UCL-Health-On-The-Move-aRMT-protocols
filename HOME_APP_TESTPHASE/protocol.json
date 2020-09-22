@@ -1,5 +1,5 @@
 {
-  "version": "0.0.49",
+  "version": "0.0.50",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -56,10 +56,6 @@
         },
         "reminders": [
           {
-            "offset": {
-              "unit": "min",
-              "amount":
-            },
             "notification": {
               "title": {
                 "en": "New survey!",
@@ -80,10 +76,6 @@
             }
           },
           {
-            "offset": {
-              "unit": "min",
-              "amount":
-            },
             "notification": {
               "title": {
                 "en": "Reminder!",
@@ -262,10 +254,6 @@
         },
         "reminders": [
           {
-            "offset": {
-              "unit": "min",
-              "amount":
-            },
             "notification": {
               "title": {
                 "en": "New survey!",
@@ -286,10 +274,6 @@
             }
           },
           {
-            "offset": {
-              "unit": "min",
-              "amount":
-            },
             "notification": {
               "title": {
                 "en": "Reminder!",
@@ -366,10 +350,6 @@
         },
         "reminders": [
           {
-            "offset": {
-              "unit": "min",
-              "amount":
-            },
             "notification": {
               "title": {
                 "en": "New survey!",
@@ -390,10 +370,6 @@
             }
           },
           {
-            "offset": {
-              "unit": "min",
-              "amount":
-            },
             "notification": {
               "title": {
                 "en": "Reminder!",
