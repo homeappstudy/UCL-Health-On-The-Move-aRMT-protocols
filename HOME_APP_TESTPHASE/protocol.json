@@ -1,5 +1,5 @@
 {
-  "version": "0.0.48",
+  "version": "0.0.49",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -83,6 +83,109 @@
             "offset": {
               "unit": "min",
               "amount":
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a 1 minute short survey still waiting to complete",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 2
+        }
+      }
+    },
+    {
+      "name": "Short",
+      "showIntroduction": "",
+      "isDemo": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+        "name": "short",
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "play"
+        }
+      },
+      "startText": {
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "That is it! Amazing! Thank you!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 1
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+              2040
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 1440
+            },
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a new 1 minute Short survey waiting to complete",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 3240
             },
             "notification": {
               "title": {
