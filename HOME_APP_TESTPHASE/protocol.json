@@ -1,5 +1,5 @@
 {
-  "version": "0.0.50",
+  "version": "0.0.51",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE",
   "healthIssues": [
@@ -54,47 +54,6 @@
             600
           ]
         },
-        "reminders": [
-          {
-            "notification": {
-              "title": {
-                "en": "New survey!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a new 1 minute Short survey waiting to complete",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          },
-          {
-            "notification": {
-              "title": {
-                "en": "Reminder!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a 1 minute short survey still waiting to complete",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          }
-        ],
         "completionWindow": {
           "unit": "day",
           "amount": 2
@@ -146,7 +105,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-              2040
+            2040
           ]
         },
         "reminders": [
@@ -252,48 +211,6 @@
             600
           ]
         },
-        "reminders": [
-          {
-            "notification": {
-              "title": {
-                "en": "New survey!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a new 1 minute interest survey waiting to complete.",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          },
-          {
-            "notification": {
-              "title": {
-                "en": "Reminder!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a 1 minute interest survey still waiting to complete.",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          }
-        ],
         "completionWindow": {
           "unit": "day",
           "amount": 3
@@ -348,48 +265,6 @@
             600
           ]
         },
-        "reminders": [
-          {
-            "notification": {
-              "title": {
-                "en": "New survey!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a new 5 minute About you survey waiting to complete.",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          },
-          {
-            "notification": {
-              "title": {
-                "en": "Reminder!",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              },
-              "text": {
-                "en": "You have a 5 minute About you survey still waiting to complete.",
-                "it": "",
-                "nl": "",
-                "da": "",
-                "de": "",
-                "es": ""
-              }
-            }
-          }
-        ],
         "completionWindow": {
           "unit": "day",
           "amount": 3
