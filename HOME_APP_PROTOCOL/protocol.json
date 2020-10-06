@@ -51,12 +51,12 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            960
           ]
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 2
+          "amount": 6
         }
       }
     },
@@ -100,19 +100,19 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 1
+          "amount": 3
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            2040
+            11040
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -136,7 +136,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -159,7 +159,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 2
+          "amount": 6
         }
       }
     },
@@ -202,18 +202,121 @@
       "estimatedCompletionTime": 1,
       "protocol": {
         "repeatProtocol": {
-          "unit": "year",
-          "amount": 50
+          "unit": "day",
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            960
           ]
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 6
+        }
+      }
+    },
+    {
+      "name": "Interest",
+      "showIntroduction": "",
+      "isDemo": false,
+      "questionnaire": {
+        "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+        "name": "engagement",
+        "avsc": "questionnaire",
+        "icon": {
+          "name": "information"
+        }
+      },
+      "startText": {
+        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "endText": {
+        "en": "That is it! Amazing! Thank you!",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "warn": {
+        "en": "",
+        "it": "",
+        "nl": "",
+        "da": "",
+        "de": "",
+        "es": ""
+      },
+      "estimatedCompletionTime": 1,
+      "protocol": {
+        "repeatProtocol": {
+          "unit": "day",
+          "amount": 7
+        },
+        "repeatQuestionnaire": {
+          "unit": "min",
+          "unitsFromZero": [
+            11040
+          ]
+        },
+        "reminders": [
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 2400
+            },
+            "notification": {
+              "title": {
+                "en": "New survey!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a new 1 minute Interest survey waiting to complete",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          },
+          {
+            "offset": {
+              "unit": "min",
+              "amount": 3840
+            },
+            "notification": {
+              "title": {
+                "en": "Reminder!",
+                "it": "",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              },
+              "text": {
+                "en": "You have a 1 minute Interest survey still waiting to complete",
+                "nl": "",
+                "da": "",
+                "de": "",
+                "es": ""
+              }
+            }
+          }
+        ],
+        "completionWindow": {
+          "unit": "day",
+          "amount": 6
         }
       }
     },
@@ -262,12 +365,12 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            600
+            960
           ]
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -316,14 +419,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            2040
+            11040
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -347,7 +450,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -371,7 +474,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -420,14 +523,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            3480
+            21120
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -451,7 +554,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -475,7 +578,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -524,14 +627,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            4920
+            31200
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -555,7 +658,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -579,7 +682,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -628,14 +731,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            6360
+            41280
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -659,7 +762,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -682,7 +785,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -731,14 +834,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            7800
+            51360
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -762,7 +865,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -786,7 +889,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -835,14 +938,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            9240
+            61440
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -866,7 +969,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -889,7 +992,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -938,14 +1041,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            10680
+            71520
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -969,7 +1072,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -993,7 +1096,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -1042,14 +1145,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            12120
+            81600
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -1073,7 +1176,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -1097,7 +1200,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -1146,14 +1249,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            13560
+            91680
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -1177,7 +1280,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -1200,7 +1303,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -1249,14 +1352,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            15000
+            101760
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -1280,7 +1383,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -1304,7 +1407,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -1353,14 +1456,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            16440
+            111840
           ]
         },
         "reminders": [
           {
             "offset": {
               "units": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -1384,7 +1487,7 @@
           {
             "offset": {
               "units": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -1408,7 +1511,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     },
@@ -1457,14 +1560,14 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            17880
+            121920
           ]
         },
         "reminders": [
           {
             "offset": {
               "unit": "min",
-              "amount": 1440
+              "amount": 2400
             },
             "notification": {
               "title": {
@@ -1488,7 +1591,7 @@
           {
             "offset": {
               "unit": "min",
-              "amount": 3240
+              "amount": 3840
             },
             "notification": {
               "title": {
@@ -1511,7 +1614,7 @@
         ],
         "completionWindow": {
           "unit": "day",
-          "amount": 3
+          "amount": 13
         }
       }
     }
