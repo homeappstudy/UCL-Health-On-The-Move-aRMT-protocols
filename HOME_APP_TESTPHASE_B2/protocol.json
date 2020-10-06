@@ -116,7 +116,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey! COME ON!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -124,7 +124,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 1 minute Short survey B2 waiting to complete",
+                "en": "HURRY UP You have a new 1 minute Short survey B2 waiting to complete",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -140,7 +140,7 @@
             },
             "notification": {
               "title": {
-                "en": "Reminder!",
+                "en": "Reminder! Come on!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -148,7 +148,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 1 minute short survey B1 still waiting to complete",
+                "en": "HURRY UP You have a 1 minute short survey B1 still waiting to complete",
                 "nl": "",
                 "da": "",
                 "de": "",
@@ -327,7 +327,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey! Come on!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -335,7 +335,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new About you II 5 minute survey B2 waiting to complete.",
+                "en": "HURRY UP You have a new About you II 5 minute survey B2 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -351,7 +351,7 @@
             },
             "notification": {
               "title": {
-                "en": "Reminder!",
+                "en": "Reminder! Come on!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -359,7 +359,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute About you II survey B2 still waiting to complete.",
+                "en": "HURRY UP You have a 5 minute About you II survey B2 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
