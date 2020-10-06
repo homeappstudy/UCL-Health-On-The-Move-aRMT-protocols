@@ -327,7 +327,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey! Come on!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -335,7 +335,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new About you II 5 minute survey C2 waiting to complete.",
+                "en": "Hurry up You have a new About you II 5 minute survey C2 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -351,7 +351,7 @@
             },
             "notification": {
               "title": {
-                "en": "Reminder!",
+                "en": "Reminder! Come on!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -359,7 +359,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute About you II survey C2 still waiting to complete.",
+                "en": "Hurry up You have a 5 minute About you II survey C2 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
