@@ -165,7 +165,7 @@
     },
     {
       "name": "Interest",
-      "showIntroduction": true,
+      "showIntroduction": "once",
       "isDemo": false,
       "questionnaire": {
         "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
