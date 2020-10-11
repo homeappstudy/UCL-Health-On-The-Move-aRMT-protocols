@@ -19,7 +19,7 @@
         }
       },
       "startText": {
-        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "en": "COMPLETE! In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
         "it": "",
         "nl": "",
         "da": "",
@@ -176,7 +176,7 @@
         }
       },
       "startText": {
-        "en": "Please answer the following questions with regard to your most recent use of the HOME app",
+        "en": "COMPLETE! Please answer the following questions with regard to your most recent use of the HOME app",
         "it": "",
         "nl": "",
         "da": "",
@@ -230,7 +230,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion.",
+        "en": "COMPLETE! In this survey, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion.",
         "it": "",
         "nl": "",
         "da": "",
