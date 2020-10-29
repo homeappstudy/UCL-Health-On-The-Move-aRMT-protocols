@@ -19,7 +19,7 @@
         }
       },
       "startText": {
-        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "en": "In this short survey B1, we will be asking you questions about how your health has been recently. This is a recurrent survey B1, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
         "it": "",
         "nl": "",
         "da": "",
@@ -73,7 +73,7 @@
         }
       },
       "startText": {
-        "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+        "en": "In this short survey B1, we will be asking you questions about how your health has been recently. This is a recurrent survey B1, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
         "it": "",
         "nl": "",
         "da": "",
@@ -116,7 +116,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -124,7 +124,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 1 minute Short survey B1 waiting to complete",
+                "en": "You have a new 1 minute Short survey B1 B1 waiting to complete",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -148,7 +148,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 1 minute short survey B1 still waiting to complete",
+                "en": "You have a 1 minute short survey B1 B1 still waiting to complete",
                 "nl": "",
                 "da": "",
                 "de": "",
@@ -230,7 +230,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion.",
+        "en": "In this survey B1, we will be asking you questions about your ethnicity, spoken languages, civil status, housing, household, occupation and religion.",
         "it": "",
         "nl": "",
         "da": "",
@@ -284,7 +284,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your health over the last 12 months.",
+        "en": "In this survey B1, we will be asking you questions about your health over the last 12 months.",
         "it": "",
         "nl": "",
         "da": "",
@@ -327,7 +327,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -335,7 +335,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new About you II 5 minute survey B1 waiting to complete.",
+                "en": "You have a new About you II 5 minute survey B1 B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -359,7 +359,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute About you II survey B1 still waiting to complete.",
+                "en": "You have a 5 minute About you II survey B1 B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -388,7 +388,7 @@
         }
       },
       "startText": {
-        "en": "This survey relates to your access to a General Practitioner (GP) and your treatment in General Practice, including any barriers to care that you might have experienced.",
+        "en": "This survey B1 relates to your access to a General Practitioner (GP) and your treatment in General Practice, including any barriers to care that you might have experienced.",
         "it": "",
         "nl": "",
         "da": "",
@@ -431,7 +431,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -439,7 +439,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute GP B1 survey waiting to complete.",
+                "en": "You have a new 5 minute GP B1 survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -463,7 +463,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute GP B1 survey still waiting to complete.",
+                "en": "You have a 5 minute GP B1 survey B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -492,7 +492,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about occupational (workplace) health. This includes questions about any injuries sustained or illnesses developing during, or because of, your work.",
+        "en": "In this survey B1, we will be asking you questions about occupational (workplace) health. This includes questions about any injuries sustained or illnesses developing during, or because of, your work.",
         "it": "",
         "nl": "",
         "da": "",
@@ -535,7 +535,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -543,7 +543,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute work survey waiting to complete.",
+                "en": "You have a new 5 minute work B1 survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -567,7 +567,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute work survey still waiting to complete.",
+                "en": "You have a 5 minute work survey B1 B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -596,7 +596,7 @@
         }
       },
       "startText": {
-        "en": "This survey assesses your general health and wellbeing, including the impact of any illnesses on a broad range of functional activities. This survey also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+        "en": "This survey B1 assesses your general health and wellbeing, including the impact of any illnesses on a broad range of functional activities. This survey B1 also contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -604,7 +604,7 @@
         "es": ""
       },
       "endText": {
-        "en": "All done. Thank you for helping us to help others. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
+        "en": "All done. Thank you for helping us to help others. For further support with issues raised in this survey B1, please talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -639,7 +639,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -647,7 +647,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute health survey waiting to complete.",
+                "en": "You have a new 5 minute health survey B1 B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -671,7 +671,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute health survey still waiting to complete.",
+                "en": "You have a 5 minute health survey B1 still waiting to complete.",
                 "nl": "",
                 "da": "",
                 "de": "",
@@ -742,7 +742,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -750,7 +750,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute health literacy survey waiting to complete.",
+                "en": "You have a new 5 minute health literacy survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -774,7 +774,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute health literacy survey still waiting to complete.",
+                "en": "You have a 5 minute health literacy survey B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -803,7 +803,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your sexual health, including use of contraception and sexual health services. You can find further information about sexual and reproductive health in the Resources section in the app.",
+        "en": "In this survey B1, we will be asking you questions about your sexual health, including use of contraception and sexual health services. You can find further information about sexual and reproductive health in the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -811,7 +811,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you, another survey completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself. For further support with issues raised in this survey, visit the Resources section in the app.",
+        "en": "Thank you, another survey B1 completed! Your efforts will contribute to improving wellbeing and health standards for UK migrants like yourself. For further support with issues raised in this survey B1, visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -846,7 +846,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -854,7 +854,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute sexual health survey waiting to complete.",
+                "en": "You have a new 5 minute sexual health survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -878,7 +878,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute sexual health survey still waiting to complete.",
+                "en": "You have a 5 minute sexual health survey B1 still waiting to complete.",
                 "nl": "",
                 "da": "",
                 "de": "",
@@ -906,7 +906,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about your mood and its effect on your life. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
+        "en": "In this survey B1, we will be asking you questions about your mood and its effect on your life. It contains questions about your mental health. If you feel distressed at any point and you feel you need professional support, we advise you to talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -914,7 +914,7 @@
         "es": ""
       },
       "endText": {
-        "en": "We know your time is precious. On behalf of the whole HOME app research team, thank you again for taking the time to complete this survey. For further support with issues raised in this survey, please talk to your GP or visit the Resources section in the app.",
+        "en": "We know your time is precious. On behalf of the whole HOME app research team, thank you again for taking the time to complete this survey B1. For further support with issues raised in this survey B1, please talk to your GP or visit the Resources section in the app.",
         "it": "",
         "nl": "",
         "da": "",
@@ -949,7 +949,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -957,7 +957,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute mood survey waiting to complete.",
+                "en": "You have a new 5 minute mood survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -981,7 +981,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute mood survey still waiting to complete.",
+                "en": "You have a 5 minute mood survey B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1010,7 +1010,7 @@
         }
       },
       "startText": {
-        "en": "This survey relates to your social relationships. We will be asking you questions about how many social relationships you have and how much support you get from them.",
+        "en": "This survey B1 relates to your social relationships. We will be asking you questions about how many social relationships you have and how much support you get from them.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1053,7 +1053,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1061,7 +1061,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute social survey waiting to complete.",
+                "en": "You have a new 5 minute social survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1085,7 +1085,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute social survey still waiting to complete.",
+                "en": "You have a 5 minute social survey B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1114,7 +1114,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we are interested in finding out about your physical activities. The questions will ask you about the time you spent being physically active in the last 7 days, even if you do not consider yourself to be an active person. Please think about the activities you do at work, as part of your house and yard work, to get from place to place, and in your spare time for recreation, exercise or sport.",
+        "en": "In this survey B1, we are interested in finding out about your physical activities. The questions will ask you about the time you spent being physically active in the last 7 days, even if you do not consider yourself to be an active person. Please think about the activities you do at work, as part of your house and yard work, to get from place to place, and in your spare time for recreation, exercise or sport.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1157,7 +1157,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1165,7 +1165,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute physical physical activity survey waiting to complete.",
+                "en": "You have a new 5 minute physical physical activity survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1189,7 +1189,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have 5 minute physical activity survey still waiting to complete.",
+                "en": "You have 5 minute physical activity survey B1 still waiting to complete.",
                 "nl": "",
                 "da": "",
                 "de": "",
@@ -1217,7 +1217,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking if you, or your household, experienced any disruptions to food supply in the last year and, if so, how severe this has been.",
+        "en": "In this survey B1, we will be asking if you, or your household, experienced any disruptions to food supply in the last year and, if so, how severe this has been.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1225,7 +1225,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Thank you - Every completed survey counts",
+        "en": "Thank you - Every completed survey B1 counts",
         "it": "",
         "nl": "",
         "da": "",
@@ -1260,7 +1260,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1268,7 +1268,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute food survey waiting to complete.",
+                "en": "You have a new 5 minute food survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1292,7 +1292,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute food survey still waiting to complete.",
+                "en": "You have a 5 minute food survey B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1321,7 +1321,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions in relation to your neighbourhood, including how safe you feel it is and how satisfied you are living there.",
+        "en": "In this survey B1, we will be asking you questions in relation to your neighbourhood, including how safe you feel it is and how satisfied you are living there.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1329,7 +1329,7 @@
         "es": ""
       },
       "endText": {
-        "en": "Just one more survey to go. It has been a great journey with you.",
+        "en": "Just one more survey B1 to go. It has been a great journey with you.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1364,7 +1364,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1372,7 +1372,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute neighbourhood survey waiting to complete.",
+                "en": "You have a new 5 minute neighbourhood survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1396,7 +1396,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute neighbourhood survey still waiting to complete.",
+                "en": "You have a 5 minute neighbourhood survey B1 still waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1425,7 +1425,7 @@
         }
       },
       "startText": {
-        "en": "In this survey, we will be asking you questions about any alcohol and other drug use and tobacco smoking habits.",
+        "en": "In this survey B1, we will be asking you questions about any alcohol and other drug use and tobacco smoking habits.",
         "it": "",
         "nl": "",
         "da": "",
@@ -1433,7 +1433,7 @@
         "es": ""
       },
       "endText": {
-        "en": "You have reached the end of this study! Every survey you have filled out has helped us better understand the needs of UK migrants. This can inform new policies to improve wellbeing, health care and services for the migrant community. Again, many thanks for participating on behalf of the whole UCL HOME app team!",
+        "en": "You have reached the end of this study! Every survey B1 you have filled out has helped us better understand the needs of UK migrants. This can inform new policies to improve wellbeing, health care and services for the migrant community. Again, many thanks for participating on behalf of the whole UCL HOME app team!",
         "it": "",
         "nl": "",
         "da": "",
@@ -1468,7 +1468,7 @@
             },
             "notification": {
               "title": {
-                "en": "New survey!",
+                "en": "New survey B1!",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1476,7 +1476,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a new 5 minute Substance use survey waiting to complete.",
+                "en": "You have a new 5 minute Substance use survey B1 waiting to complete.",
                 "it": "",
                 "nl": "",
                 "da": "",
@@ -1500,7 +1500,7 @@
                 "es": ""
               },
               "text": {
-                "en": "You have a 5 minute Substance use survey still waiting to complete.",
+                "en": "You have a 5 minute Substance use survey B1 still waiting to complete.",
                 "nl": "",
                 "da": "",
                 "de": "",
