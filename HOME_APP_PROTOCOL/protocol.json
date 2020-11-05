@@ -100,7 +100,7 @@
       "protocol": {
         "repeatProtocol": {
           "unit": "day",
-          "amount": 3
+          "amount": 7
         },
         "repeatQuestionnaire": {
           "unit": "min",
