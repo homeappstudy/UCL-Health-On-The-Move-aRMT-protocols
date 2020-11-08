@@ -105,7 +105,7 @@
         "repeatQuestionnaire": {
           "unit": "min",
           "unitsFromZero": [
-            11040
+            5280
           ]
         },
         "reminders": [
