@@ -370,7 +370,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 6
+          "amount": 13
         }
       }
     },
