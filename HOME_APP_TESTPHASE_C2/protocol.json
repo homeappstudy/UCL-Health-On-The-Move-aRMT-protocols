@@ -1,5 +1,5 @@
 {
-  "version": "0.0.63",
+  "version": "0.0.64",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_TESTPHASE_C2",
   "healthIssues": [
@@ -370,7 +370,7 @@
         },
         "completionWindow": {
           "unit": "day",
-          "amount": 13
+          "amount": 6
         }
       }
     },
