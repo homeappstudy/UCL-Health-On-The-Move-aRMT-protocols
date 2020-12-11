@@ -220,7 +220,7 @@
       }
     },
     "startText": {
-      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+      "en": "Please answer the following questions with regard to your most recent use of the HOME app.",
       "it": "",
       "nl": "",
       "da": "",
@@ -228,7 +228,7 @@
       "es": ""
     },
     "endText": {
-      "en": "That is it! Amazing! Thank you!",
+      "en": "Noted! Many thanks for helping us do this!",
       "it": "",
       "nl": "",
       "da": "",
@@ -268,7 +268,7 @@
             "es": ""
           },
           "text": {
-            "en": "You have a new 1 minute short survey waiting to complete. Every survey you complete brings us one step closer to better understanding the wellbeing and health of migrants like yourself.",
+            "en": "You have a new 1 minute interest waiting to complete. Every survey you complete brings us one step closer to better understanding the wellbeing and health of migrants like yourself.",
             "it": "",
             "nl": "",
             "da": "",
@@ -291,7 +291,7 @@
             "es": ""
           },
           "text": {
-            "en": "You have a 1 minute short survey still waiting to complete. Lots of people have already responded, but we want to hear from you too.",
+            "en": "You have a 1 minute interest still waiting to complete. Lots of people have already responded, but we want to hear from you too.",
             "nl": "",
             "da": "",
             "de": "",
