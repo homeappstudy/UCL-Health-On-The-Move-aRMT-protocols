@@ -125,6 +125,29 @@
             "es": ""
           }
         }
+      },
+      {
+        "offset": {
+          "unit": "min",
+          "amount": 4140
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 1 minute short survey still waiting to complete.",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
       }],
       "completionWindow": {
         "unit": "min",
