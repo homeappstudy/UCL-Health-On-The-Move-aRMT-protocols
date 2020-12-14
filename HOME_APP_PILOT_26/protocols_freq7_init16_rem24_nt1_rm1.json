@@ -105,7 +105,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -129,7 +129,7 @@
       {
         "offset": {
           "unit": "min",
-          "amount": 4140
+          "amount": 3180
         },
         "notification": {
           "title": {
@@ -256,7 +256,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -279,7 +279,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -406,7 +406,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -429,7 +429,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -505,7 +505,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -528,7 +528,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -604,7 +604,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -627,7 +627,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -703,7 +703,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -726,7 +726,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -801,7 +801,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -824,7 +824,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -900,7 +900,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -923,7 +923,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -998,7 +998,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -1021,7 +1021,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -1097,7 +1097,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -1120,7 +1120,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -1196,7 +1196,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -1219,7 +1219,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -1294,7 +1294,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -1317,7 +1317,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -1393,7 +1393,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -1416,7 +1416,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
@@ -1492,7 +1492,7 @@
       "reminders": [{
         "offset": {
           "unit": "min",
-          "amount": 2400
+          "amount": 1440
         },
         "notification": {
           "title": {
@@ -1515,7 +1515,7 @@
       }, {
         "offset": {
           "unit": "min",
-          "amount": 3840
+          "amount": 2880
         },
         "notification": {
           "title": {
