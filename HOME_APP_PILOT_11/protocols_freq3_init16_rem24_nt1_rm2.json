@@ -52,7 +52,7 @@
       },
       "completionWindow": {
         "unit": "min",
-        "amount": 9119
+        "amount": 3359
       }
     }
   }, {
@@ -96,7 +96,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "day",
-        "amount": 7
+        "amount": 3
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -128,7 +128,7 @@
       }],
       "completionWindow": {
         "unit": "min",
-        "amount": 9119
+        "amount": 3359
       }
     }
   }, {

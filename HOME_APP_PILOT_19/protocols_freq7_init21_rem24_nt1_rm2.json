@@ -100,7 +100,7 @@
       },
       "repeatQuestionnaire": {
         "unit": "min",
-        "unitsFromZero": [11340]
+        "unitsFromZero": [11040]
       },
       "reminders": [{
         "offset": {

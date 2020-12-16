@@ -52,7 +52,7 @@
       },
       "completionWindow": {
         "unit": "min",
-        "amount": 9119
+        "amount": 3359
       }
     }
   }, {
@@ -96,11 +96,11 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "day",
-        "amount": 7
+        "amount": 3
       },
       "repeatQuestionnaire": {
         "unit": "min",
-        "unitsFromZero": [5580]
+        "unitsFromZero": [5280]
       },
       "reminders": [{
         "offset": {
@@ -128,7 +128,7 @@
       }],
       "completionWindow": {
         "unit": "min",
-        "amount": 9119
+        "amount": 3359
       }
     }
   }, {
