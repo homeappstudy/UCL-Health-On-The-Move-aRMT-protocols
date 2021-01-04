@@ -1,9 +1,10 @@
 {
-  "version": "0.0.73",
+  "version": "0.0.74",
   "schemaVersion": "0.0.1",
-  "name": "HOME_APP_PILOT_2",
+  "name": "HOME_APP_PILOT",
   "healthIssues": ["social health"],
   "protocols": [{
+    "id": 0,
     "name": "Short",
     "showIntroduction": "once",
     "isDemo": false,
@@ -16,7 +17,7 @@
       }
     },
     "startText": {
-      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete. If you have not already done so, please turn on notifications for the HOME app. Notifications can be changed in your phone's Settings.",
+      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete. If you have not already done so, please turn on notifications for the HOME app. Notifications can be changed in your phone's Settings.",
       "it": "",
       "nl": "",
       "da": "",
@@ -51,10 +52,11 @@
       },
       "completionWindow": {
         "unit": "min",
-        "amount": 3359
+        "amount": 9119
       }
     }
   }, {
+    "id": 1,
     "name": "Short",
     "showIntroduction": "",
     "isDemo": false,
@@ -67,7 +69,7 @@
       }
     },
     "startText": {
-      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
+      "en": "In this short survey, we will be asking you questions about how your health has been recently. This is a recurrent Survey, which will allow us to capture changes in your health over time. It will usually take less than a minute to complete.",
       "it": "",
       "nl": "",
       "da": "",
@@ -94,11 +96,11 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "day",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
-        "unitsFromZero": [5280]
+        "unitsFromZero": [11040]
       },
       "reminders": [{
         "offset": {
@@ -126,10 +128,11 @@
       }],
       "completionWindow": {
         "unit": "min",
-        "amount": 3359
+        "amount": 9119
       }
     }
   }, {
+    "id": 2,
     "name": "Interest",
     "showIntroduction": "once",
     "isDemo": false,
@@ -181,6 +184,7 @@
       }
     }
   }, {
+    "id": 3,
     "name": "Interest",
     "showIntroduction": "",
     "isDemo": false,
@@ -278,6 +282,7 @@
       }
     }
   }, {
+    "id": 4,
     "name": "About you",
     "showIntroduction": "once",
     "isDemo": false,
@@ -329,6 +334,7 @@
       }
     }
   }, {
+    "id": 5,
     "name": "About you II",
     "showIntroduction": "once",
     "isDemo": false,
@@ -368,7 +374,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -427,6 +433,7 @@
       }
     }
   }, {
+    "id": 6,
     "name": "GP",
     "showIntroduction": "once",
     "isDemo": false,
@@ -466,7 +473,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -525,6 +532,7 @@
       }
     }
   }, {
+    "id": 7,
     "name": "Work",
     "showIntroduction": "once",
     "isDemo": false,
@@ -564,7 +572,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -623,6 +631,7 @@
       }
     }
   }, {
+    "id": 8,
     "name": "Health",
     "showIntroduction": "once",
     "isDemo": false,
@@ -662,7 +671,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -720,6 +729,7 @@
       }
     }
   }, {
+    "id": 9,
     "name": "Health Literacy",
     "showIntroduction": "once",
     "isDemo": false,
@@ -759,7 +769,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -818,6 +828,7 @@
       }
     }
   }, {
+    "id": 10,
     "name": "Sexual health",
     "showIntroduction": "once",
     "isDemo": false,
@@ -857,7 +868,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -915,6 +926,7 @@
       }
     }
   }, {
+    "id": 11,
     "name": "Mood",
     "showIntroduction": "once",
     "isDemo": false,
@@ -954,7 +966,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -1013,6 +1025,7 @@
       }
     }
   }, {
+    "id": 12,
     "name": "Social",
     "showIntroduction": "once",
     "isDemo": false,
@@ -1052,7 +1065,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -1073,7 +1086,7 @@
             "es": ""
           },
           "text": {
-            "en": "You have a new 5 minute Social Survey waiting to complete.",
+            "en": "You have a new 5 minute Mood Survey waiting to complete.",
             "it": "",
             "nl": "",
             "da": "",
@@ -1096,7 +1109,7 @@
             "es": ""
           },
           "text": {
-            "en": "You have a 5 minute Social Survey still waiting to complete.",
+            "en": "You have a 5 minute Mood Survey still waiting to complete.",
             "it": "",
             "nl": "",
             "da": "",
@@ -1111,6 +1124,7 @@
       }
     }
   }, {
+    "id": 13,
     "name": "Physical",
     "showIntroduction": "once",
     "isDemo": false,
@@ -1150,7 +1164,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -1208,6 +1222,7 @@
       }
     }
   }, {
+    "id": 14,
     "name": "Food",
     "showIntroduction": "once",
     "isDemo": false,
@@ -1247,7 +1262,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -1306,6 +1321,7 @@
       }
     }
   }, {
+    "id": 15,
     "name": "Neighbourhood",
     "showIntroduction": "once",
     "isDemo": false,
@@ -1345,7 +1361,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
@@ -1404,6 +1420,7 @@
       }
     }
   }, {
+    "id": 16,
     "name": "Substance use",
     "showIntroduction": "once",
     "isDemo": false,
@@ -1443,7 +1460,7 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "year",
-        "amount": 3
+        "amount": 7
       },
       "repeatQuestionnaire": {
         "unit": "min",
