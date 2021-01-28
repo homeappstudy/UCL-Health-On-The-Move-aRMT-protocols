@@ -1,7 +1,7 @@
 {
   "version": "0.0.74",
   "schemaVersion": "0.0.1",
-  "name": "HOME_APP_PILOT",
+  "name": "HOME_APP_PILOT_2",
   "healthIssues": ["social health"],
   "protocols": [{
     "id": 0,
