@@ -1,5 +1,5 @@
 {
-  "version": "0.0.74",
+  "version": "0.0.75",
   "schemaVersion": "0.0.1",
   "name": "HOME_APP_PILOT_2",
   "healthIssues": ["social health"],
@@ -52,7 +52,7 @@
       },
       "completionWindow": {
         "unit": "min",
-        "amount": 9119
+        "amount": 3359
       }
     }
   }, {
@@ -96,11 +96,11 @@
     "protocol": {
       "repeatProtocol": {
         "unit": "day",
-        "amount": 7
+        "amount": 3
       },
       "repeatQuestionnaire": {
         "unit": "min",
-        "unitsFromZero": [11040]
+        "unitsFromZero": [5280]
       },
       "reminders": [{
         "offset": {
@@ -128,7 +128,7 @@
       }],
       "completionWindow": {
         "unit": "min",
-        "amount": 9119
+        "amount": 3359
       }
     }
   }, {
