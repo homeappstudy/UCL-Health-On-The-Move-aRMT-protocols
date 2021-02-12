@@ -1,5 +1,5 @@
 {
-  "version": "0.0.74",
+  "version": "0.0.75",
   "schemaVersion": "0.0.1",
   "name": "HOME_APP_PILOT_1",
   "healthIssues": ["social health"],
@@ -197,7 +197,7 @@
       }
     },
     "startText": {
-      "en": "Please answer the following questions with regard to your most recent use of the HOME app. If you have not already done so, please turn on notifications for the HOME app.",
+      "en": "Please answer the following questions with regard to your most recent use of the HOME app.",
       "it": "",
       "nl": "",
       "da": "",
