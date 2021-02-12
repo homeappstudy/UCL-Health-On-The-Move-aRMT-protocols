@@ -1,5 +1,5 @@
 {
-  "version": "0.0.73",
+  "version": "0.0.74",
   "schemaVersion": "0.0.1",
   "name": "HOME_APP_PILOT_1",
   "healthIssues": ["social health"],
@@ -134,7 +134,7 @@
   }, {
     "id": 2,
     "name": "Interest",
-    "showIntroduction": "once",
+    "showIntroduction": true,
     "isDemo": false,
     "questionnaire": {
       "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
@@ -186,7 +186,7 @@
   }, {
     "id": 3,
     "name": "Interest",
-    "showIntroduction": "",
+    "showIntroduction": true,
     "isDemo": false,
     "questionnaire": {
       "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
