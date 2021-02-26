@@ -1,5 +1,5 @@
 {
-  "version": "0.0.78",
+  "version": "0.0.79",
   "schemaVersion": "0.0.1",
   "name": "HOME_APP_PILOT_2",
   "healthIssues": ["social health"],
@@ -58,7 +58,7 @@
   }, {
     "id": 1,
     "name": "Short",
-    "showIntroduction": "",
+    "showIntroduction": false,
     "isDemo": false,
     "questionnaire": {
       "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
