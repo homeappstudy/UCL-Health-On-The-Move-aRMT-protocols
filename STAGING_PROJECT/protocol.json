@@ -1,5 +1,5 @@
 {
-    "version": "0.3.11",
+    "version": "0.4.4",
     "schemaVersion": "0.0.2",
     "name": "RADAR STAGING Project",
     "healthIssues": [
@@ -376,7 +376,7 @@
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 4
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "min",
@@ -386,12 +386,12 @@
           },
           "reminders": {
             "unit": "day",
-            "amount": 4,
-            "repeat": 1
+            "amount": 0,
+            "repeat": 0
           },
           "completionWindow": {
             "unit": "day",
-            "amount": 3
+            "amount": 1
           }
         }
       },
@@ -716,59 +716,6 @@
         }
       },
       {
-        "name": "AUDIO_2",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
-        "questionnaire": {
-          "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio_2",
-          "avsc": "questionnaire"
-        },
-        "startText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "endText": {
-          "en": "",
-          "it": "",
-          "nl": "",
-          "da": "",
-          "de": "",
-          "es": ""
-        },
-        "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
-        },
-        "estimatedCompletionTime": 3,
-        "protocol": {
-          "repeatProtocol": {
-            "unit": "day",
-            "amount": 3
-          },
-          "repeatQuestionnaire": {
-            "unit": "hour",
-            "unitsFromZero": [
-              36
-            ]
-          },
-          "reminders": {
-            "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          }
-        }
-      },
-      {
         "name": "AUDIO_3",
         "showIntroduction": false,
         "showInCalendar": true,
@@ -831,11 +778,11 @@
         }
       },
       {
-        "name": "AUDIO_4",
-        "showIntroduction": false,
+        "name": "CNS_COVID19_FOLLOWUP",
+        "showIntroduction": true,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "audio_4",
+          "name": "cns_covid19_followup_v2",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -855,40 +802,38 @@
           "es": ""
         },
         "warn": {
-          "en": "Find a quiet space.",
-          "it": "Trova uno spazio tranquillo.",
-          "nl": "Zoek een stille ruimte.",
-          "da": "Find et roligt sted.",
-          "de": "Suchen Sie sich einen ruhigen Platz.",
-          "es": "Encuentra un espacio tranquilo."
+          "en": "",
+          "it": "",
+          "nl": "",
+          "da": "",
+          "de": "",
+          "es": ""
         },
         "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 4
+            "amount": 1
           },
           "repeatQuestionnaire": {
             "unit": "hour",
             "unitsFromZero": [
-              60
+              11
             ]
           },
           "reminders": {
             "unit": "day",
-            "amount": 4,
-            "repeat": 1
+            "amount": 0,
+            "repeat": 0
           }
         }
       },
       {
-        "name": "PDDS",
-        "showIntroduction": false,
-        "showInCalendar": true,
-        "order": 3,
+        "name": "CNS_COVID19_FOLLOWUP_V3",
+        "showIntroduction": true,
         "questionnaire": {
           "repository": "https://raw.githubusercontent.com/RADAR-CNS/RADAR-REDCap-aRMT-Definitions/master/questionnaires/",
-          "name": "patient_determined_disease_step",
+          "name": "cns_covid19_followup_v3",
           "avsc": "questionnaire"
         },
         "startText": {
@@ -915,26 +860,22 @@
           "de": "",
           "es": ""
         },
-        "estimatedCompletionTime": 1,
+        "estimatedCompletionTime": 3,
         "protocol": {
           "repeatProtocol": {
             "unit": "day",
-            "amount": 3
+            "amount": 1
           },
           "repeatQuestionnaire": {
-            "unit": "min",
+            "unit": "hour",
             "unitsFromZero": [
-              630
+              11
             ]
           },
           "reminders": {
             "unit": "day",
-            "amount": 4,
-            "repeat": 1
-          },
-          "completionWindow": {
-            "unit": "day",
-            "amount": 3
+            "amount": 0,
+            "repeat": 0
           }
         }
       }
