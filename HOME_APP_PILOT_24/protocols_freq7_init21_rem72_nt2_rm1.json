@@ -1,5 +1,5 @@
 {
-  "version": "0.0.93",
+  "version": "0.0.95",
   "schemaVersion": "0.0.1",
   "name": "Home_APP_PILOT_24",
   "healthIssues": ["social health"],
@@ -457,105 +457,6 @@
     }
   }, {
     "id": 6,
-    "name": "GP",
-    "showIntroduction": "once",
-    "isDemo": false,
-    "questionnaire": {
-      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
-      "name": "gp_access",
-      "avsc": "questionnaire",
-      "icon": {
-        "name": "medkit"
-      }
-    },
-    "startText": {
-      "en": "This survey relates to your access to a General Practitioner (GP) and your treatment in General Practice, including any barriers to care that you might have experienced.",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "endText": {
-      "en": " You have completed a quarter of the study! We really value your contribution.",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "warn": {
-      "en": "",
-      "it": "",
-      "nl": "",
-      "da": "",
-      "de": "",
-      "es": ""
-    },
-    "estimatedCompletionTime": 5,
-    "protocol": {
-      "repeatProtocol": {
-        "unit": "year",
-        "amount": 7
-      },
-      "repeatQuestionnaire": {
-        "unit": "min",
-        "unitsFromZero": [21120]
-      },
-      "reminders": [{
-        "offset": {
-          "unit": "min",
-          "amount": 1740
-        },
-        "notification": {
-          "title": {
-            "en": "New Survey!",
-            "it": "",
-            "nl": "",
-            "da": "",
-            "de": "",
-            "es": ""
-          },
-          "text": {
-            "en": "You have a new 5 minute GP Survey waiting to complete. Every survey you complete brings us one step closer to better understanding the wellbeing and health of migrants like yourself.",
-            "it": "",
-            "nl": "",
-            "da": "",
-            "de": "",
-            "es": ""
-          }
-        }
-      }, {
-        "offset": {
-          "unit": "min",
-          "amount": 6060
-        },
-        "notification": {
-          "title": {
-            "en": "Reminder!",
-            "it": "",
-            "nl": "",
-            "da": "",
-            "de": "",
-            "es": ""
-          },
-          "text": {
-            "en": "You have a 5 minute GP Survey still waiting to complete.",
-            "it": "",
-            "nl": "",
-            "da": "",
-            "de": "",
-            "es": ""
-          }
-        }
-      }],
-      "completionWindow": {
-        "unit": "min",
-        "amount": 19199
-      }
-    }
-  }, {
-    "id": 7,
     "name": "Work",
     "showIntroduction": "once",
     "isDemo": false,
@@ -599,7 +500,7 @@
       },
       "repeatQuestionnaire": {
         "unit": "min",
-        "unitsFromZero": [31200]
+        "unitsFromZero": [21120]
       },
       "reminders": [{
         "offset": {
@@ -640,6 +541,105 @@
           },
           "text": {
             "en": "You have a 5 minute Work Survey still waiting to complete.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }],
+      "completionWindow": {
+        "unit": "min",
+        "amount": 19199
+      }
+    }
+  }, {
+    "id": 7,
+    "name": "GP",
+    "showIntroduction": "once",
+    "isDemo": false,
+    "questionnaire": {
+      "repository": "https://raw.githubusercontent.com/homeappstudy/UCL-HOMEapp-aRMT-Definitions/master/questionnaires/HOME_app/",
+      "name": "gp_access",
+      "avsc": "questionnaire",
+      "icon": {
+        "name": "medkit"
+      }
+    },
+    "startText": {
+      "en": "This survey relates to your access to a General Practitioner (GP) and your treatment in General Practice, including any barriers to care that you might have experienced.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "endText": {
+      "en": " You have completed a quarter of the study! We really value your contribution.",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "warn": {
+      "en": "",
+      "it": "",
+      "nl": "",
+      "da": "",
+      "de": "",
+      "es": ""
+    },
+    "estimatedCompletionTime": 5,
+    "protocol": {
+      "repeatProtocol": {
+        "unit": "year",
+        "amount": 7
+      },
+      "repeatQuestionnaire": {
+        "unit": "min",
+        "unitsFromZero": [31200]
+      },
+      "reminders": [{
+        "offset": {
+          "unit": "min",
+          "amount": 1740
+        },
+        "notification": {
+          "title": {
+            "en": "New Survey!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a new 5 minute GP Survey waiting to complete. Every survey you complete brings us one step closer to better understanding the wellbeing and health of migrants like yourself.",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          }
+        }
+      }, {
+        "offset": {
+          "unit": "min",
+          "amount": 6060
+        },
+        "notification": {
+          "title": {
+            "en": "Reminder!",
+            "it": "",
+            "nl": "",
+            "da": "",
+            "de": "",
+            "es": ""
+          },
+          "text": {
+            "en": "You have a 5 minute GP Survey still waiting to complete.",
             "it": "",
             "nl": "",
             "da": "",
